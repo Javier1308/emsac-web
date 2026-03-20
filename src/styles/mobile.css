@@ -23,6 +23,11 @@
     padding: 0 20px !important;
   }
 
+  /* Ocultar flechas del slider en móvil (los dots permiten navegar) */
+  .hero-arrow {
+    display: none !important;
+  }
+
   /* ── HOME: barra de estadísticas (4 col → 2 col) ── */
   .home-stats-grid {
     grid-template-columns: repeat(2, 1fr) !important;

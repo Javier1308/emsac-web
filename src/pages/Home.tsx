@@ -164,6 +164,7 @@ export default function Home() {
 
         {/* Arrow — prev */}
         <button
+          className="hero-arrow"
           onClick={() => goTo(current - 1)}
           aria-label="Anterior"
           style={{
@@ -197,6 +198,7 @@ export default function Home() {
 
         {/* Arrow — next */}
         <button
+          className="hero-arrow"
           onClick={() => goTo(current + 1)}
           aria-label="Siguiente"
           style={{
