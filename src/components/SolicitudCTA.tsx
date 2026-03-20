@@ -7,7 +7,7 @@ export default function SolicitudCTA() {
       borderTop: '1px solid rgba(232,93,4,0.25)',
       borderBottom: '1px solid rgba(232,93,4,0.25)',
     }}>
-      <div style={{
+      <div className="cta-inner" style={{
         maxWidth: 1200,
         margin: '0 auto',
         padding: '64px 40px',

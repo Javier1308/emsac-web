@@ -37,7 +37,7 @@ export default function CadenasTransmision() {
 
       {/* Tipos */}
       <section style={{ background: '#111', padding: '56px 0' }}>
-        <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px' }}>
+        <div className="m-pad" style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px' }}>
           <p className="label" style={{ marginBottom: 16 }}>Tipos disponibles</p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 2 }}>
             {tipos.map((t, i) => (

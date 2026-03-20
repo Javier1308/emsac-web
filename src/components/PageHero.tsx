@@ -41,7 +41,7 @@ export default function PageHero({ label, title, titleAccent, description, image
       }}/>
 
       {/* Content */}
-      <div style={{
+      <div className="page-hero-content" style={{
         position: 'relative',
         maxWidth: 1200,
         width: '100%',

@@ -40,7 +40,7 @@ export default function Nosotros() {
         }}/>
         <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: 4, background: 'linear-gradient(to right, #E85D04, #1B3A5C)' }}/>
 
-        <div style={{ position: 'relative', maxWidth: 1200, width: '100%', margin: '0 auto', padding: '80px 40px 64px' }}>
+        <div className="page-hero-content" style={{ position: 'relative', maxWidth: 1200, width: '100%', margin: '0 auto', padding: '80px 40px 64px' }}>
           <p className="label" style={{ marginBottom: 12 }}>La empresa</p>
           <h1 style={{
             fontFamily: 'var(--font-display)',
@@ -57,7 +57,7 @@ export default function Nosotros() {
 
       {/* Historia */}
       <section className="section" style={{ background: '#F0EEE9' }}>
-        <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 80, alignItems: 'start' }}>
+        <div className="nos-historia-grid" style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 80, alignItems: 'start' }}>
           <div>
             <p className="label" style={{ marginBottom: 12 }}>Historia</p>
             <h2 className="heading-lg" style={{ marginBottom: 16, fontSize: 'clamp(32px,4vw,52px)' }}>
@@ -95,7 +95,7 @@ export default function Nosotros() {
           </div>
 
           {/* Galería */}
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 2 }}>
+          <div className="nos-historia-gallery" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 2 }}>
             {galeria.map((src, i) => (
               <div key={i} style={{ aspectRatio: '1', overflow: 'hidden' }}>
                 <img src={src} alt="EMSAC planta" style={{
@@ -118,8 +118,8 @@ export default function Nosotros() {
         backgroundImage: 'repeating-linear-gradient(-45deg,transparent,transparent 40px,rgba(255,255,255,0.018) 40px,rgba(255,255,255,0.018) 41px)',
         padding: '80px 0',
       }}>
-        <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 64 }}>
+        <div className="m-pad" style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px' }}>
+          <div className="nos-mision-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 64 }}>
             <div>
               <p className="label" style={{ marginBottom: 12 }}>Nuestra misión</p>
               <h2 style={{ fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 'clamp(28px,3.5vw,44px)', textTransform: 'uppercase', color: '#fff', lineHeight: 1.1, marginBottom: 20 }}>

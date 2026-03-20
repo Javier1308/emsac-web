@@ -29,7 +29,7 @@ export default function CadenasAgricultura() {
 
       {/* Aplicaciones */}
       <section style={{ background: '#111', padding: '56px 0' }}>
-        <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px' }}>
+        <div className="m-pad" style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px' }}>
           <p className="label" style={{ marginBottom: 24 }}>Aplicaciones</p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: 2 }}>
             {aplicaciones.map((a, i) => (

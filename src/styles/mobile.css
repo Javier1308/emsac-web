@@ -1,0 +1,101 @@
+/* ============================================================
+   MOBILE RESPONSIVE OVERRIDES  —  max-width: 768px
+   Todas las reglas aplican SOLO en móvil.
+   La versión de escritorio no es afectada en absoluto.
+   ============================================================ */
+
+@media (max-width: 768px) {
+
+  /* ── Helpers globales ── */
+  .section       { padding: 56px 0 !important; }
+  .section-dark  { padding: 56px 0 !important; }
+  .section-acero { padding: 56px 0 !important; }
+  .container     { padding: 0 20px !important; }
+
+  /* Contenedores internos con padding lateral de 40px → 20px */
+  .m-pad {
+    padding-left:  20px !important;
+    padding-right: 20px !important;
+  }
+
+  /* ── HOME: hero ── */
+  .home-hero-content {
+    padding: 0 20px !important;
+  }
+
+  /* ── HOME: barra de estadísticas (4 col → 2 col) ── */
+  .home-stats-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    padding: 0 !important;
+  }
+
+  /* ── HOME: sección "Sobre Nosotros" (2 col → 1 col) ── */
+  .home-about-wrap {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+    padding: 56px 20px !important;
+  }
+  .home-about-images {
+    display: none !important;
+  }
+
+  /* ── NOSOTROS: historia (2 col → 1 col, ocultar galería) ── */
+  .nos-historia-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0 !important;
+    padding: 0 20px !important;
+  }
+  .nos-historia-gallery {
+    display: none !important;
+  }
+
+  /* ── NOSOTROS: misión / manufactura (2 col → 1 col) ── */
+  .nos-mision-grid {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+  }
+
+  /* ── CONTACTENOS: grid principal (form + info → 1 col) ── */
+  .cont-main-grid {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+    padding: 0 20px !important;
+  }
+
+  /* Filas del formulario (2 campos → 1 campo) */
+  .form-row {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* ── ACOPLAMIENTOS: tipos (2 col → 1 col) ── */
+  .acopl-tipos-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* ── FOOTER ── */
+  .footer-inner {
+    padding: 40px 20px 32px !important;
+  }
+  .footer-main-grid {
+    grid-template-columns: 1fr !important;
+    gap: 32px !important;
+  }
+  .footer-bottom {
+    padding: 16px 20px !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 6px !important;
+  }
+
+  /* ── SolicitudCTA ── */
+  .cta-inner {
+    padding: 48px 20px !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  /* ── PageHero (todas las páginas de producto) ── */
+  .page-hero-content {
+    padding: 56px 20px 40px !important;
+  }
+}

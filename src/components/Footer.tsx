@@ -5,8 +5,8 @@ export default function Footer() {
   return (
     <footer style={{ background: '#0D0D0D', borderTop: '1px solid rgba(232,93,4,0.2)' }}>
       {/* Main footer */}
-      <div style={{ maxWidth: 1200, margin: '0 auto', padding: '64px 40px 48px' }}>
-        <div style={{ display: 'grid', gridTemplateColumns: '1.5fr 1fr 1fr 1fr', gap: 48 }}>
+      <div className="footer-inner" style={{ maxWidth: 1200, margin: '0 auto', padding: '64px 40px 48px' }}>
+        <div className="footer-main-grid" style={{ display: 'grid', gridTemplateColumns: '1.5fr 1fr 1fr 1fr', gap: 48 }}>
 
           {/* Brand column */}
           <div>
@@ -177,7 +177,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom bar */}
-      <div style={{
+      <div className="footer-bottom" style={{
         borderTop: '1px solid rgba(255,255,255,0.06)',
         padding: '20px 40px',
         maxWidth: 1200,

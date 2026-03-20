@@ -61,7 +61,7 @@ export default function Contactenos() {
         padding: '80px 0 64px',
         borderBottom: '3px solid #E85D04',
       }}>
-        <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px' }}>
+        <div className="m-pad" style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px' }}>
           <p className="label" style={{ marginBottom: 12 }}>Estamos para ayudarle</p>
           <h1 style={{
             fontFamily: 'var(--font-display)', fontWeight: 900,
@@ -79,7 +79,7 @@ export default function Contactenos() {
 
       {/* Main content */}
       <section className="section" style={{ background: '#F0EEE9' }}>
-        <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px', display: 'grid', gridTemplateColumns: '1.4fr 1fr', gap: 64 }}>
+        <div className="cont-main-grid" style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px', display: 'grid', gridTemplateColumns: '1.4fr 1fr', gap: 64 }}>
 
           {/* Form */}
           <div>
@@ -98,7 +98,7 @@ export default function Contactenos() {
               </div>
             ) : (
               <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
+                <div className="form-row" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
                   <div>
                     <label style={{ fontFamily: 'var(--font-display)', fontSize: 11, letterSpacing: '3px', textTransform: 'uppercase', color: '#E85D04', display: 'block', marginBottom: 8 }}>
                       * Nombre y Apellidos
@@ -132,7 +132,7 @@ export default function Contactenos() {
                     />
                   </div>
                 </div>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
+                <div className="form-row" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
                   <div>
                     <label style={{ fontFamily: 'var(--font-display)', fontSize: 11, letterSpacing: '3px', textTransform: 'uppercase', color: '#E85D04', display: 'block', marginBottom: 8 }}>
                       * Teléfono
@@ -248,7 +248,7 @@ export default function Contactenos() {
 
       {/* Google Maps */}
       <section style={{ background: '#111', borderTop: '3px solid #E85D04' }}>
-        <div style={{ maxWidth: 1200, margin: '0 auto', padding: '56px 40px' }}>
+        <div className="m-pad" style={{ maxWidth: 1200, margin: '0 auto', padding: '56px 40px' }}>
           <p className="label" style={{ marginBottom: 12 }}>Cómo llegar</p>
           <h2 style={{
             fontFamily: 'var(--font-display)', fontWeight: 900,

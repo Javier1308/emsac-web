@@ -28,7 +28,7 @@ export default function OtrosProductos() {
 
       {/* Info */}
       <section style={{ background: '#111', padding: '48px 0' }}>
-        <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px' }}>
+        <div className="m-pad" style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px' }}>
           <div style={{
             background: '#1C1C1C',
             borderLeft: '4px solid #E85D04',

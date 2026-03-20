@@ -125,7 +125,7 @@ export default function Home() {
         }}/>
 
         {/* Content */}
-        <div style={{
+        <div className="home-hero-content" style={{
           position: 'relative',
           maxWidth: 1200, margin: '0 auto', padding: '0 40px',
           height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center',
@@ -250,7 +250,7 @@ export default function Home() {
 
       {/* ── STATS BAR ── */}
       <section style={{ background: '#1B3A5C', borderBottom: '3px solid #E85D04' }}>
-        <div style={{
+        <div className="home-stats-grid" style={{
           maxWidth: 1200, margin: '0 auto', padding: '0 40px',
           display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)',
         }}>
@@ -434,7 +434,7 @@ export default function Home() {
         background: '#111',
         backgroundImage: 'repeating-linear-gradient(-45deg,transparent,transparent 40px,rgba(255,255,255,0.018) 40px,rgba(255,255,255,0.018) 41px)',
       }}>
-        <div style={{
+        <div className="home-about-wrap" style={{
           maxWidth: 1200, margin: '0 auto', padding: '80px 40px',
           display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 80, alignItems: 'center',
         }}>
@@ -476,7 +476,7 @@ export default function Home() {
             <Link to="/nosotros" className="btn-primary">Conocer Más</Link>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 2 }}>
+          <div className="home-about-images" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 2 }}>
             {[
               '/images/0000021206IM01.jpg',
               '/images/noso_chico.jpg',

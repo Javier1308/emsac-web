@@ -30,7 +30,7 @@ export default function CadenasTransportadoras() {
 
       {/* Info strip */}
       <section style={{ background: '#1B3A5C', padding: '32px 0', borderBottom: '3px solid #E85D04' }}>
-        <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px', display: 'flex', gap: 48, flexWrap: 'wrap' }}>
+        <div className="m-pad" style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px', display: 'flex', gap: 48, flexWrap: 'wrap' }}>
           {[
             { label: 'Marca', value: 'WROL' },
             { label: 'Sectores', value: 'Pesquería · Minería · Agroindustria · Embotelladoras · Metalmecánica' },
