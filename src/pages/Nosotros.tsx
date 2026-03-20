@@ -207,9 +207,31 @@ export default function Nosotros() {
 
       {/* Marcas */}
       <section style={{ background: '#1B3A5C', padding: '48px 0' }}>
-        <div className="container" style={{ textAlign: 'center' }}>
-          <p className="label" style={{ marginBottom: 24, color: 'rgba(255,255,255,0.4)' }}>Marcas que representamos</p>
-          <img src="/images/0000021242IM01.jpg" alt="Marcas" style={{ maxWidth: 600, width: '100%', filter: 'brightness(1.3)' }}/>
+        <div className="container">
+          <p style={{
+            fontFamily: 'var(--font-display)',
+            fontWeight: 600,
+            fontSize: 11,
+            letterSpacing: '5px',
+            textTransform: 'uppercase',
+            color: 'rgba(255,255,255,0.4)',
+            textAlign: 'center',
+            marginBottom: 40,
+          }}>
+            Marcas que distribuimos
+          </p>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 60, flexWrap: 'wrap' }}>
+            <img
+              src="/images/HC_logo.png"
+              alt="HC"
+              style={{ height: 120, width: 'auto', borderRadius: 8 }}
+            />
+            <img
+              src="/images/WROL_sin_logo.jpeg"
+              alt="WROL"
+              style={{ height: 120, width: 'auto', borderRadius: 4 }}
+            />
+          </div>
         </div>
       </section>
 

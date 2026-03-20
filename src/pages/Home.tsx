@@ -565,19 +565,20 @@ export default function Home() {
             textTransform: 'uppercase',
             color: 'rgba(255,255,255,0.4)',
             textAlign: 'center',
-            marginBottom: 32,
+            marginBottom: 40,
           }}>
             Marcas que distribuimos
           </p>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 60, flexWrap: 'wrap' }}>
             <img
-              src="/images/0000021242IM01.jpg"
-              alt="Marcas: HC, WROL, DELTA, MAX DYNAMIC, HECORAD, Ewart Chain"
-              style={{
-                maxWidth: 600,
-                width: '100%',
-                filter: 'brightness(1.4) contrast(1.1)',
-              }}
+              src="/images/HC_logo.png"
+              alt="HC"
+              style={{ height: 120, width: 'auto', borderRadius: 8 }}
+            />
+            <img
+              src="/images/WROL_sin_logo.jpeg"
+              alt="WROL"
+              style={{ height: 120, width: 'auto', borderRadius: 4 }}
             />
           </div>
         </div>
