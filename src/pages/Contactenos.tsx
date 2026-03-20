@@ -245,6 +245,38 @@ export default function Contactenos() {
           </div>
         </div>
       </section>
+
+      {/* Google Maps */}
+      <section style={{ background: '#111', borderTop: '3px solid #E85D04' }}>
+        <div style={{ maxWidth: 1200, margin: '0 auto', padding: '56px 40px' }}>
+          <p className="label" style={{ marginBottom: 12 }}>Cómo llegar</p>
+          <h2 style={{
+            fontFamily: 'var(--font-display)', fontWeight: 900,
+            fontSize: 'clamp(28px, 3vw, 40px)', textTransform: 'uppercase',
+            color: '#fff', lineHeight: 1, marginBottom: 32,
+          }}>
+            NUESTRA <span style={{ color: '#E85D04' }}>UBICACIÓN</span>
+          </h2>
+          <div style={{ position: 'relative', borderRadius: 2, overflow: 'hidden', border: '1px solid rgba(232,93,4,0.3)' }}>
+            <iframe
+              title="Ubicación EMSAC — Av. Colonial 2078-2082, Lima"
+              src="https://www.google.com/maps?q=Av.+Colonial+2078,+Cercado+de+Lima,+Lima,+Peru&hl=es&z=17&output=embed"
+              width="100%"
+              height="420"
+              style={{ display: 'block', border: 'none' }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+          <p style={{
+            fontFamily: 'var(--font-body)', fontSize: 15.75,
+            color: '#8D9BAB', marginTop: 12,
+          }}>
+            📍 Av. Colonial 2078-2082, Cercado de Lima, Lima, Perú
+          </p>
+        </div>
+      </section>
     </>
   )
 }
