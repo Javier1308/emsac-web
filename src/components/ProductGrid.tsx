@@ -37,7 +37,7 @@ export default function ProductGrid({ products }: ProductGridProps) {
             if (overlay) overlay.style.opacity = '0'
           }}
         >
-          <div style={{ aspectRatio: '1', overflow: 'hidden', background: '#f5f5f5' }}>
+          <div style={{ aspectRatio: '1', overflow: 'hidden', background: '#ffffff' }}>
             <img
               src={p.image}
               alt={p.name}
@@ -70,7 +70,7 @@ export default function ProductGrid({ products }: ProductGridProps) {
             <div style={{
               width: 32,
               height: 2,
-              background: '#E85D04',
+              background: '#C41E1E',
               marginBottom: 12,
             }}/>
             <p style={{
@@ -88,7 +88,7 @@ export default function ProductGrid({ products }: ProductGridProps) {
               <p style={{
                 fontFamily: 'var(--font-body)',
                 fontSize: 13.5,
-                color: '#8D9BAB',
+                color: '#C0C0C0',
                 marginTop: 8,
                 lineHeight: 1.6,
               }}>
@@ -100,8 +100,8 @@ export default function ProductGrid({ products }: ProductGridProps) {
           {/* Name bar */}
           <div style={{
             padding: '12px 16px',
-            background: '#111',
-            borderTop: '2px solid rgba(232,93,4,0.3)',
+            background: '#1B3A6B',
+            borderTop: '2px solid rgba(196,30,30,0.3)',
           }}>
             <p style={{
               fontFamily: 'var(--font-display)',
@@ -109,7 +109,7 @@ export default function ProductGrid({ products }: ProductGridProps) {
               fontSize: 12,
               letterSpacing: '2px',
               textTransform: 'uppercase',
-              color: '#C8CDD3',
+              color: '#C0C0C0',
             }}>
               {p.name}
             </p>

@@ -59,8 +59,8 @@ export default function Navbar() {
         top: 0, left: 0, right: 0,
         zIndex: 1000,
         height: 'var(--nav-height)',
-        background: scrolled ? 'rgba(17,17,17,0.97)' : '#111111',
-        borderBottom: `1px solid ${scrolled ? 'rgba(232,93,4,0.5)' : 'rgba(232,93,4,0.25)'}`,
+        background: scrolled ? 'rgba(27,58,107,0.97)' : '#1B3A6B',
+        borderBottom: `1px solid ${scrolled ? 'rgba(196,30,30,0.5)' : 'rgba(196,30,30,0.25)'}`,
         backdropFilter: scrolled ? 'blur(12px)' : 'none',
         transition: 'all 0.3s ease',
       }}>
@@ -104,12 +104,12 @@ export default function Navbar() {
                   fontSize: 13,
                   letterSpacing: '2px',
                   textTransform: 'uppercase',
-                  color: isCadenasActive ? '#E85D04' : '#8D9BAB',
-                  borderBottom: isCadenasActive ? '2px solid #E85D04' : '2px solid transparent',
+                  color: isCadenasActive ? '#C41E1E' : '#C0C0C0',
+                  borderBottom: isCadenasActive ? '2px solid #C41E1E' : '2px solid transparent',
                   transition: 'color 0.2s',
                 }}
                 onMouseEnter={e => { if (!isCadenasActive) (e.currentTarget as HTMLButtonElement).style.color = '#fff' }}
-                onMouseLeave={e => { if (!isCadenasActive) (e.currentTarget as HTMLButtonElement).style.color = '#8D9BAB' }}
+                onMouseLeave={e => { if (!isCadenasActive) (e.currentTarget as HTMLButtonElement).style.color = '#C0C0C0' }}
               >
                 Cadenas
                 <svg width="10" height="6" viewBox="0 0 10 6" fill="currentColor"
@@ -123,9 +123,9 @@ export default function Navbar() {
                   position: 'absolute',
                   top: 'calc(100% + 8px)',
                   left: 0,
-                  background: '#1C1C1C',
-                  border: '1px solid rgba(232,93,4,0.3)',
-                  borderTop: '2px solid #E85D04',
+                  background: '#1B3A6B',
+                  border: '1px solid rgba(196,30,30,0.3)',
+                  borderTop: '2px solid #C41E1E',
                   borderRadius: '0 0 4px 4px',
                   minWidth: 240,
                   boxShadow: '0 8px 32px rgba(0,0,0,0.4)',
@@ -144,20 +144,20 @@ export default function Navbar() {
                         letterSpacing: '1.5px',
                         textTransform: 'uppercase',
                         textDecoration: 'none',
-                        color: isActive(l.to) ? '#E85D04' : '#C8CDD3',
-                        background: isActive(l.to) ? 'rgba(232,93,4,0.1)' : 'transparent',
-                        borderLeft: isActive(l.to) ? '3px solid #E85D04' : '3px solid transparent',
+                        color: isActive(l.to) ? '#C41E1E' : '#C0C0C0',
+                        background: isActive(l.to) ? 'rgba(196,30,30,0.1)' : 'transparent',
+                        borderLeft: isActive(l.to) ? '3px solid #C41E1E' : '3px solid transparent',
                         transition: 'all 0.15s',
                       }}
                       onMouseEnter={e => {
                         const el = e.currentTarget as HTMLAnchorElement
-                        el.style.background = 'rgba(232,93,4,0.12)'
-                        el.style.color = '#E85D04'
+                        el.style.background = 'rgba(196,30,30,0.12)'
+                        el.style.color = '#C41E1E'
                       }}
                       onMouseLeave={e => {
                         const el = e.currentTarget as HTMLAnchorElement
-                        el.style.background = isActive(l.to) ? 'rgba(232,93,4,0.1)' : 'transparent'
-                        el.style.color = isActive(l.to) ? '#E85D04' : '#C8CDD3'
+                        el.style.background = isActive(l.to) ? 'rgba(196,30,30,0.1)' : 'transparent'
+                        el.style.color = isActive(l.to) ? '#C41E1E' : '#C0C0C0'
                       }}
                     >
                       {l.label}
@@ -180,13 +180,13 @@ export default function Navbar() {
                   letterSpacing: '2px',
                   textTransform: 'uppercase',
                   textDecoration: 'none',
-                  color: isActive(l.to) ? '#E85D04' : '#8D9BAB',
-                  borderBottom: isActive(l.to) ? '2px solid #E85D04' : '2px solid transparent',
+                  color: isActive(l.to) ? '#C41E1E' : '#C0C0C0',
+                  borderBottom: isActive(l.to) ? '2px solid #C41E1E' : '2px solid transparent',
                   transition: 'color 0.2s',
                   whiteSpace: 'nowrap',
                 }}
                 onMouseEnter={e => { if (!isActive(l.to)) (e.currentTarget as HTMLAnchorElement).style.color = '#fff' }}
-                onMouseLeave={e => { if (!isActive(l.to)) (e.currentTarget as HTMLAnchorElement).style.color = '#8D9BAB' }}
+                onMouseLeave={e => { if (!isActive(l.to)) (e.currentTarget as HTMLAnchorElement).style.color = '#C0C0C0' }}
               >
                 {l.label}
               </Link>
@@ -204,14 +204,14 @@ export default function Navbar() {
                 letterSpacing: '2.5px',
                 textTransform: 'uppercase',
                 textDecoration: 'none',
-                color: isActive('/contactenos') ? '#fff' : '#fff',
-                background: isActive('/contactenos') ? '#c94d02' : '#E85D04',
+                color: '#fff',
+                background: isActive('/contactenos') ? '#111111' : '#C41E1E',
                 borderRadius: 2,
                 transition: 'background 0.2s',
                 whiteSpace: 'nowrap',
               }}
-              onMouseEnter={e => (e.currentTarget as HTMLAnchorElement).style.background = '#c94d02'}
-              onMouseLeave={e => (e.currentTarget as HTMLAnchorElement).style.background = isActive('/contactenos') ? '#c94d02' : '#E85D04'}
+              onMouseEnter={e => (e.currentTarget as HTMLAnchorElement).style.background = '#111111'}
+              onMouseLeave={e => (e.currentTarget as HTMLAnchorElement).style.background = isActive('/contactenos') ? '#111111' : '#C41E1E'}
             >
               Contáctenos
             </Link>
@@ -247,7 +247,7 @@ export default function Navbar() {
           position: 'fixed',
           top: 'var(--nav-height)',
           left: 0, right: 0, bottom: 0,
-          background: '#111111',
+          background: '#1B3A6B',
           zIndex: 999,
           overflowY: 'auto',
           padding: '24px 0',
@@ -270,7 +270,7 @@ export default function Navbar() {
               fontSize: 15,
               letterSpacing: '2px',
               textTransform: 'uppercase',
-              color: isCadenasActive ? '#E85D04' : '#fff',
+              color: isCadenasActive ? '#C41E1E' : '#fff',
             }}
           >
             Cadenas
@@ -293,9 +293,9 @@ export default function Navbar() {
                 letterSpacing: '1.5px',
                 textTransform: 'uppercase',
                 textDecoration: 'none',
-                color: isActive(l.to) ? '#E85D04' : '#8D9BAB',
+                color: isActive(l.to) ? '#C41E1E' : '#C0C0C0',
                 borderBottom: '1px solid rgba(255,255,255,0.04)',
-                background: isActive(l.to) ? 'rgba(232,93,4,0.08)' : 'transparent',
+                background: isActive(l.to) ? 'rgba(196,30,30,0.08)' : 'transparent',
               }}
             >
               {l.label}
@@ -315,7 +315,7 @@ export default function Navbar() {
                 letterSpacing: '2px',
                 textTransform: 'uppercase',
                 textDecoration: 'none',
-                color: isActive(l.to) ? '#E85D04' : '#fff',
+                color: isActive(l.to) ? '#C41E1E' : '#fff',
                 borderBottom: '1px solid rgba(255,255,255,0.06)',
               }}
             >
@@ -329,13 +329,13 @@ export default function Navbar() {
               fontFamily: 'var(--font-display)',
               fontSize: 18,
               fontWeight: 700,
-              color: '#E85D04',
+              color: '#C41E1E',
               textDecoration: 'none',
               marginBottom: 8,
             }}>
               +511 336-6593
             </a>
-            <p style={{ fontFamily: 'var(--font-body)', fontSize: 14.625, color: '#8D9BAB' }}>
+            <p style={{ fontFamily: 'var(--font-body)', fontSize: 14.625, color: '#C0C0C0' }}>
               Av. Colonial 2078-2082, Lima
             </p>
           </div>

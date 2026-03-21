@@ -29,7 +29,7 @@ export default function CadenasTransportadoras() {
       />
 
       {/* Info strip */}
-      <section style={{ background: '#1B3A5C', padding: '32px 0', borderBottom: '3px solid #E85D04' }}>
+      <section style={{ background: '#1B3A6B', padding: '32px 0', borderBottom: '3px solid #C41E1E' }}>
         <div className="m-pad" style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px', display: 'flex', gap: 48, flexWrap: 'wrap' }}>
           {[
             { label: 'Marca', value: 'WROL' },
@@ -37,7 +37,7 @@ export default function CadenasTransportadoras() {
             { label: 'Personalización', value: 'Aditamentos especiales disponibles' },
           ].map((item, i) => (
             <div key={i}>
-              <p style={{ fontFamily: 'var(--font-display)', fontSize: 10, letterSpacing: '3px', textTransform: 'uppercase', color: '#E85D04', marginBottom: 4 }}>{item.label}</p>
+              <p style={{ fontFamily: 'var(--font-display)', fontSize: 10, letterSpacing: '3px', textTransform: 'uppercase', color: '#C41E1E', marginBottom: 4 }}>{item.label}</p>
               <p style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 15, color: '#fff', letterSpacing: '1px' }}>{item.value}</p>
             </div>
           ))}
@@ -45,12 +45,12 @@ export default function CadenasTransportadoras() {
       </section>
 
       {/* Products */}
-      <section className="section" style={{ background: '#F0EEE9' }}>
+      <section className="section" style={{ background: '#FFFFFF' }}>
         <div className="container">
           <p className="label" style={{ marginBottom: 12 }}>Catálogo</p>
-          <h2 className="heading-lg" style={{ marginBottom: 8 }}>MODELOS<br /><span style={{ color: '#E85D04' }}>DISPONIBLES</span></h2>
+          <h2 className="heading-lg" style={{ marginBottom: 8 }}>MODELOS<br /><span style={{ color: '#C41E1E' }}>DISPONIBLES</span></h2>
           <div className="accent-line"/>
-          <p style={{ fontFamily: 'var(--font-body)', fontSize: 18, color: '#3A3A3A', maxWidth: 560, lineHeight: 1.7, marginBottom: 48 }}>
+          <p style={{ fontFamily: 'var(--font-body)', fontSize: 18, color: '#111111', maxWidth: 560, lineHeight: 1.7, marginBottom: 48 }}>
             Nuestra línea de cadenas transportadoras incluye múltiples configuraciones para adaptarse
             a cualquier proceso industrial. Todos los modelos pueden incorporar aditamentos especiales
             según los requerimientos del cliente.

@@ -27,17 +27,19 @@ export default function OtrosProductos() {
       />
 
       {/* Info */}
-      <section style={{ background: '#111', padding: '48px 0' }}>
+      <section style={{ background: '#1B3A6B', padding: '48px 0' }}>
         <div className="m-pad" style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px' }}>
           <div style={{
-            background: '#1C1C1C',
-            borderLeft: '4px solid #E85D04',
+            background: '#FFFFFF',
+            borderLeft: '4px solid #C41E1E',
             padding: '28px 32px',
+            border: '1px solid rgba(27,58,107,0.12)',
+            borderLeft: '4px solid #C41E1E',
           }}>
-            <p style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 13, letterSpacing: '2px', textTransform: 'uppercase', color: '#E85D04', marginBottom: 8 }}>
+            <p style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 13, letterSpacing: '2px', textTransform: 'uppercase', color: '#C41E1E', marginBottom: 8 }}>
               Servicio Integral
             </p>
-            <p style={{ fontFamily: 'var(--font-body)', fontSize: 16.875, color: '#8D9BAB', lineHeight: 1.7 }}>
+            <p style={{ fontFamily: 'var(--font-body)', fontSize: 16.875, color: '#111111', lineHeight: 1.7 }}>
               Contamos con una flota de vehículos y técnicos altamente calificados. Si requiere de algún
               trabajo especial, no dude en contactarnos — nuestros ingenieros le ayudarán a desarrollarlo
               en planta de acuerdo a sus necesidades.
@@ -47,56 +49,65 @@ export default function OtrosProductos() {
       </section>
 
       {/* Products grid */}
-      <section className="section" style={{ background: '#F0EEE9' }}>
+      <section className="section" style={{ background: '#FFFFFF' }}>
         <div className="container">
           <p className="label" style={{ marginBottom: 12 }}>Catálogo</p>
-          <h2 className="heading-lg" style={{ marginBottom: 8 }}>PRODUCTOS<br /><span style={{ color: '#E85D04' }}>COMPLEMENTARIOS</span></h2>
+          <h2 className="heading-lg" style={{ marginBottom: 8 }}>PRODUCTOS<br /><span style={{ color: '#C41E1E' }}>COMPLEMENTARIOS</span></h2>
           <div className="accent-line" style={{ marginBottom: 48 }}/>
 
           <div style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
-            gap: 2,
+            gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
+            gap: 16,
           }}>
             {products.map((p, i) => (
               <div key={i} style={{
                 background: '#fff',
                 display: 'flex',
-                gap: 0,
                 overflow: 'hidden',
-                transition: 'transform 0.2s',
+                border: '1px solid rgba(27,58,107,0.15)',
+                borderLeft: '3px solid #C41E1E',
+                transition: 'transform 0.2s, box-shadow 0.2s',
               }}
-              onMouseEnter={e => (e.currentTarget as HTMLDivElement).style.transform = 'translateY(-2px)'}
-              onMouseLeave={e => (e.currentTarget as HTMLDivElement).style.transform = 'translateY(0)'}
+              onMouseEnter={e => {
+                (e.currentTarget as HTMLDivElement).style.transform = 'translateY(-3px)'
+                ;(e.currentTarget as HTMLDivElement).style.boxShadow = '0 6px 20px rgba(27,58,107,0.12)'
+              }}
+              onMouseLeave={e => {
+                (e.currentTarget as HTMLDivElement).style.transform = 'translateY(0)'
+                ;(e.currentTarget as HTMLDivElement).style.boxShadow = 'none'
+              }}
               >
-                <div style={{ width: 120, flexShrink: 0, overflow: 'hidden', background: '#f5f5f5' }}>
+                <div style={{ width: 110, flexShrink: 0, overflow: 'hidden', background: '#f5f5f5' }}>
                   <img
                     src={p.image}
                     alt={p.name}
                     style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.3s' }}
-                    onMouseEnter={e => (e.currentTarget as HTMLImageElement).style.transform = 'scale(1.1)'}
+                    onMouseEnter={e => (e.currentTarget as HTMLImageElement).style.transform = 'scale(1.08)'}
                     onMouseLeave={e => (e.currentTarget as HTMLImageElement).style.transform = 'scale(1)'}
                   />
                 </div>
                 <div style={{
-                  padding: '16px 20px',
-                  borderLeft: '3px solid #E85D04',
+                  padding: '18px 20px',
                   flex: 1,
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'center',
                 }}>
                   <p style={{
                     fontFamily: 'var(--font-display)',
                     fontWeight: 700,
-                    fontSize: 14,
+                    fontSize: 13,
                     letterSpacing: '1.5px',
                     textTransform: 'uppercase',
-                    color: '#111',
+                    color: '#111111',
                     marginBottom: 6,
                   }}>{p.name}</p>
                   <p style={{
                     fontFamily: 'var(--font-body)',
-                    fontSize: 13.5,
-                    color: '#666',
-                    lineHeight: 1.5,
+                    fontSize: 13,
+                    color: '#444444',
+                    lineHeight: 1.55,
                   }}>{p.desc}</p>
                 </div>
               </div>

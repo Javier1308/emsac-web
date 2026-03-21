@@ -14,6 +14,7 @@ import OtrosProductos from './pages/OtrosProductos'
 import Nosotros from './pages/Nosotros'
 import Contactenos from './pages/Contactenos'
 import ScrollToTop from './components/ScrollToTop'
+import WhatsAppFloat from './components/WhatsAppFloat'
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
+      <WhatsAppFloat />
     </BrowserRouter>
   )
 }

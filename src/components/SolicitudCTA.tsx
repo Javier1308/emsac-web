@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 export default function SolicitudCTA() {
   return (
     <section style={{
-      background: '#111',
-      borderTop: '1px solid rgba(232,93,4,0.25)',
-      borderBottom: '1px solid rgba(232,93,4,0.25)',
+      background: '#1B3A6B',
+      borderTop: '1px solid rgba(196,30,30,0.25)',
+      borderBottom: '1px solid rgba(196,30,30,0.25)',
     }}>
       <div className="cta-inner" style={{
         maxWidth: 1200,
@@ -28,12 +28,12 @@ export default function SolicitudCTA() {
             lineHeight: 1.1,
           }}>
             Solicite información<br />
-            <span style={{ color: '#E85D04' }}>adicional</span>
+            <span style={{ color: '#C41E1E' }}>adicional</span>
           </h3>
           <p style={{
             fontFamily: 'var(--font-body)',
             fontSize: 16.875,
-            color: '#8D9BAB',
+            color: '#C0C0C0',
             marginTop: 12,
             maxWidth: 480,
           }}>

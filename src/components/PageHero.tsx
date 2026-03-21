@@ -32,12 +32,12 @@ export default function PageHero({ label, title, titleAccent, description, image
         backgroundImage: 'repeating-linear-gradient(-45deg, transparent, transparent 40px, rgba(255,255,255,0.015) 40px, rgba(255,255,255,0.015) 41px)',
       }}/>
 
-      {/* Orange gradient bottom */}
+      {/* Gradient bottom line */}
       <div style={{
         position: 'absolute',
         bottom: 0, left: 0, right: 0,
         height: 4,
-        background: 'linear-gradient(to right, #E85D04, #1B3A5C)',
+        background: 'linear-gradient(to right, #C41E1E, #1B3A6B)',
       }}/>
 
       {/* Content */}
@@ -58,7 +58,7 @@ export default function PageHero({ label, title, titleAccent, description, image
           color: '#fff',
         }}>
           {title}
-          {titleAccent && <><br /><span style={{ color: '#E85D04' }}>{titleAccent}</span></>}
+          {titleAccent && <><br /><span style={{ color: '#C41E1E' }}>{titleAccent}</span></>}
         </h1>
         {description && (
           <p style={{
