@@ -37,7 +37,6 @@ export default function Poleas() {
               <div key={i} style={{
                 background: '#FFFFFF',
                 padding: '24px 20px',
-                borderTop: '2px solid #C41E1E',
                 border: '1px solid rgba(27,58,107,0.12)',
                 borderTop: '2px solid #C41E1E',
               }}>

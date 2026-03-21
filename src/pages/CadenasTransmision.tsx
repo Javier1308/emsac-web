@@ -44,7 +44,6 @@ export default function CadenasTransmision() {
               <div key={i} style={{
                 padding: '16px 20px',
                 background: '#FFFFFF',
-                borderLeft: '3px solid #C41E1E',
                 display: 'flex',
                 alignItems: 'center',
                 gap: 12,

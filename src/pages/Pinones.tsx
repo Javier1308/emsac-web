@@ -39,7 +39,6 @@ export default function Pinones() {
               <div key={i} style={{
                 background: '#FFFFFF',
                 padding: '28px 24px',
-                borderLeft: '3px solid #C41E1E',
                 border: '1px solid rgba(27,58,107,0.12)',
                 borderLeft: '3px solid #C41E1E',
               }}>
@@ -48,7 +47,7 @@ export default function Pinones() {
               </div>
             ))}
           </div>
-          <div style={{ marginTop: 24, background: '#FFFFFF', borderTop: '2px solid #C41E1E', padding: '20px 24px', border: '1px solid rgba(27,58,107,0.12)', borderTop: '2px solid #C41E1E' }}>
+          <div style={{ marginTop: 24, background: '#FFFFFF', padding: '20px 24px', border: '1px solid rgba(27,58,107,0.12)', borderTop: '2px solid #C41E1E' }}>
             <p style={{ fontFamily: 'var(--font-body)', fontSize: 15.75, color: '#111111' }}>
               <strong style={{ color: '#111111' }}>Acabado estándar:</strong> Se suministran con agujero mínimo o acabado de canal chavetero y roscado para prisionero según necesidad del cliente.
             </p>

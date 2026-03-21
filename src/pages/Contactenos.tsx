@@ -198,7 +198,6 @@ export default function Contactenos() {
                 <div key={i} style={{
                   background: '#FFFFFF',
                   padding: '24px',
-                  borderLeft: '3px solid #C41E1E',
                   display: 'flex',
                   gap: 16,
                   alignItems: 'flex-start',

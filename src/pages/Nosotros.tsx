@@ -167,7 +167,6 @@ export default function Nosotros() {
               <div key={i} style={{
                 background: '#fff',
                 padding: '40px 32px',
-                borderTop: '3px solid #C41E1E',
                 border: '1px solid rgba(27,58,107,0.15)',
                 borderTop: '3px solid #C41E1E',
                 transition: 'all 0.2s',

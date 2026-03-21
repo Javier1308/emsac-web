@@ -37,7 +37,6 @@ export default function CadenasAgricultura() {
                 background: '#FFFFFF',
                 padding: '32px 24px',
                 textAlign: 'center',
-                borderBottom: '3px solid #C41E1E',
                 border: '1px solid rgba(27,58,107,0.12)',
                 borderBottom: '3px solid #C41E1E',
               }}>

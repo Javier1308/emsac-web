@@ -38,7 +38,6 @@ export default function Acoplamientos() {
               <div key={i} style={{
                 background: '#FFFFFF',
                 padding: '40px 36px',
-                borderTop: '3px solid #C41E1E',
                 border: '1px solid rgba(27,58,107,0.12)',
                 borderTop: '3px solid #C41E1E',
               }}>
@@ -48,7 +47,7 @@ export default function Acoplamientos() {
             ))}
           </div>
 
-          <div style={{ marginTop: 24, background: '#FFFFFF', borderLeft: '4px solid #C41E1E', padding: '24px 28px', border: '1px solid rgba(27,58,107,0.12)', borderLeft: '4px solid #C41E1E' }}>
+          <div style={{ marginTop: 24, background: '#FFFFFF', padding: '24px 28px', border: '1px solid rgba(27,58,107,0.12)', borderLeft: '4px solid #C41E1E' }}>
             <p style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 13, letterSpacing: '2px', textTransform: 'uppercase', color: '#C41E1E', marginBottom: 8 }}>
               Acoplamientos de Cadena — Detalles
             </p>

@@ -31,7 +31,6 @@ export default function OtrosProductos() {
         <div className="m-pad" style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px' }}>
           <div style={{
             background: '#FFFFFF',
-            borderLeft: '4px solid #C41E1E',
             padding: '28px 32px',
             border: '1px solid rgba(27,58,107,0.12)',
             borderLeft: '4px solid #C41E1E',
