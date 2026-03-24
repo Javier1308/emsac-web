@@ -10,8 +10,8 @@
   /* ── Paleta oficial EMSAC (5 colores) ── */
   --negro:     #111111;
   --azul:      #496ebc;
-  --rojo:      #C41E1E;
-  --plateado:  #C0C0C0;
+  --rojo:      #E82828;
+  --plateado:  #E0E0E0;
   --blanco:    #FFFFFF;
 
   /* ── Aliases de compatibilidad ── */
@@ -26,7 +26,7 @@
   --font-display: 'Barlow Condensed', sans-serif;
   --font-body:    'Barlow', sans-serif;
 
-  --nav-height: 72px;
+  --nav-height: 83px;
 }
 
 html { scroll-behavior: smooth; }

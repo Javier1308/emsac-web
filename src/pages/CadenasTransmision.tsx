@@ -36,7 +36,7 @@ export default function CadenasTransmision() {
       />
 
       {/* Tipos */}
-      <section style={{ background: '#1B3A6B', padding: '56px 0' }}>
+      <section style={{ background: '#496ebc', padding: '56px 0' }}>
         <div className="m-pad" style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px' }}>
           <p className="label" style={{ marginBottom: 16 }}>Tipos disponibles</p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 2 }}>
@@ -47,10 +47,10 @@ export default function CadenasTransmision() {
                 display: 'flex',
                 alignItems: 'center',
                 gap: 12,
-                border: '1px solid rgba(27,58,107,0.12)',
-                borderLeft: '3px solid #C41E1E',
+                border: '1px solid rgba(73,110,188,0.12)',
+                borderLeft: '3px solid #E82828',
               }}>
-                <div style={{ width: 6, height: 6, background: '#C41E1E', borderRadius: '50%', flexShrink: 0 }}/>
+                <div style={{ width: 6, height: 6, background: '#E82828', borderRadius: '50%', flexShrink: 0 }}/>
                 <p style={{
                   fontFamily: 'var(--font-display)',
                   fontWeight: 600,
@@ -69,7 +69,7 @@ export default function CadenasTransmision() {
       <section className="section" style={{ background: '#FFFFFF' }}>
         <div className="container">
           <p className="label" style={{ marginBottom: 12 }}>Catálogo</p>
-          <h2 className="heading-lg" style={{ marginBottom: 8 }}>MODELOS<br /><span style={{ color: '#C41E1E' }}>DISPONIBLES</span></h2>
+          <h2 className="heading-lg" style={{ marginBottom: 8 }}>MODELOS<br /><span style={{ color: '#E82828' }}>DISPONIBLES</span></h2>
           <div className="accent-line" style={{ marginBottom: 48 }}/>
           <ProductGrid products={products} />
         </div>

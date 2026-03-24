@@ -30,7 +30,7 @@ export default function Acoplamientos() {
       />
 
       {/* Tipos */}
-      <section style={{ background: '#1B3A6B', padding: '56px 0' }}>
+      <section style={{ background: '#496ebc', padding: '56px 0' }}>
         <div className="m-pad" style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px' }}>
           <p className="label" style={{ marginBottom: 24 }}>Clasificación</p>
           <div className="acopl-tipos-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 2 }}>
@@ -38,8 +38,8 @@ export default function Acoplamientos() {
               <div key={i} style={{
                 background: '#FFFFFF',
                 padding: '40px 36px',
-                border: '1px solid rgba(27,58,107,0.12)',
-                borderTop: '3px solid #C41E1E',
+                border: '1px solid rgba(73,110,188,0.12)',
+                borderTop: '3px solid #E82828',
               }}>
                 <p style={{ fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 28, textTransform: 'uppercase', color: '#111111', marginBottom: 12 }}>{t.tipo}</p>
                 <p style={{ fontFamily: 'var(--font-body)', fontSize: 16.875, color: '#111111', lineHeight: 1.7 }}>{t.desc}</p>
@@ -47,8 +47,8 @@ export default function Acoplamientos() {
             ))}
           </div>
 
-          <div style={{ marginTop: 24, background: '#FFFFFF', padding: '24px 28px', border: '1px solid rgba(27,58,107,0.12)', borderLeft: '4px solid #C41E1E' }}>
-            <p style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 13, letterSpacing: '2px', textTransform: 'uppercase', color: '#C41E1E', marginBottom: 8 }}>
+          <div style={{ marginTop: 24, background: '#FFFFFF', padding: '24px 28px', border: '1px solid rgba(73,110,188,0.12)', borderLeft: '4px solid #E82828' }}>
+            <p style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 13, letterSpacing: '2px', textTransform: 'uppercase', color: '#E82828', marginBottom: 8 }}>
               Acoplamientos de Cadena — Detalles
             </p>
             <p style={{ fontFamily: 'var(--font-body)', fontSize: 15.75, color: '#111111', lineHeight: 1.7 }}>
@@ -64,7 +64,7 @@ export default function Acoplamientos() {
       <section className="section" style={{ background: '#FFFFFF' }}>
         <div className="container">
           <p className="label" style={{ marginBottom: 12 }}>Catálogo</p>
-          <h2 className="heading-lg" style={{ marginBottom: 8 }}>MODELOS<br /><span style={{ color: '#C41E1E' }}>DISPONIBLES</span></h2>
+          <h2 className="heading-lg" style={{ marginBottom: 8 }}>MODELOS<br /><span style={{ color: '#E82828' }}>DISPONIBLES</span></h2>
           <div className="accent-line" style={{ marginBottom: 48 }}/>
           <ProductGrid products={products} />
         </div>

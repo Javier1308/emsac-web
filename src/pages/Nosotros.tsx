@@ -25,7 +25,7 @@ export default function Nosotros() {
         display: 'flex',
         alignItems: 'flex-end',
         overflow: 'hidden',
-        background: '#1B3A6B',
+        background: '#496ebc',
       }}>
         <div style={{
           position: 'absolute', inset: 0,
@@ -36,9 +36,9 @@ export default function Nosotros() {
         }}/>
         <div style={{
           position: 'absolute', inset: 0,
-          backgroundImage: 'repeating-linear-gradient(-45deg,transparent,transparent 40px,rgba(255,255,255,0.018) 40px,rgba(255,255,255,0.018) 41px)',
+          backgroundImage: 'repeating-linear-gradient(-45deg,transparent,transparent 40px,rgba(255,255,255,0.07) 40px,rgba(255,255,255,0.07) 41px)',
         }}/>
-        <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: 4, background: 'linear-gradient(to right, #C41E1E, #1B3A6B)' }}/>
+        <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: 4, background: 'linear-gradient(to right, #E82828, #496ebc)' }}/>
 
         <div className="page-hero-content" style={{ position: 'relative', maxWidth: 1200, width: '100%', margin: '0 auto', padding: '80px 40px 64px' }}>
           <p className="label" style={{ marginBottom: 12 }}>La empresa</p>
@@ -50,7 +50,7 @@ export default function Nosotros() {
             lineHeight: 0.95,
             color: '#fff',
           }}>
-            SOBRE<br /><span style={{ color: '#C41E1E' }}>NOSOTROS</span>
+            SOBRE<br /><span style={{ color: '#E82828' }}>NOSOTROS</span>
           </h1>
         </div>
       </section>
@@ -62,7 +62,7 @@ export default function Nosotros() {
             <p className="label" style={{ marginBottom: 12 }}>Historia</p>
             <h2 className="heading-lg" style={{ marginBottom: 16, fontSize: 'clamp(32px,4vw,52px)' }}>
               65+ AÑOS<br />
-              <span style={{ color: '#C41E1E' }}>DE EXPERIENCIA</span>
+              <span style={{ color: '#E82828' }}>DE EXPERIENCIA</span>
             </h2>
             <div className="accent-line"/>
             <p style={{ fontFamily: 'var(--font-body)', fontSize: 16.875, color: '#111111', lineHeight: 1.8, marginBottom: 20 }}>
@@ -87,7 +87,7 @@ export default function Nosotros() {
                 { value: 'ISO',  label: '9001 Certificado' },
               ].map((s, i) => (
                 <div key={i} style={{ textAlign: 'center' }}>
-                  <div style={{ fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 40, color: '#C41E1E', lineHeight: 1 }}>{s.value}</div>
+                  <div style={{ fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 40, color: '#E82828', lineHeight: 1 }}>{s.value}</div>
                   <div style={{ fontFamily: 'var(--font-display)', fontSize: 11, letterSpacing: '2px', textTransform: 'uppercase', color: '#444444', marginTop: 4 }}>{s.label}</div>
                 </div>
               ))}
@@ -114,8 +114,8 @@ export default function Nosotros() {
 
       {/* Misión */}
       <section style={{
-        background: '#1B3A6B',
-        backgroundImage: 'repeating-linear-gradient(-45deg,transparent,transparent 40px,rgba(255,255,255,0.018) 40px,rgba(255,255,255,0.018) 41px)',
+        background: '#496ebc',
+        backgroundImage: 'repeating-linear-gradient(-45deg,transparent,transparent 40px,rgba(255,255,255,0.07) 40px,rgba(255,255,255,0.07) 41px)',
         padding: '80px 0',
       }}>
         <div className="m-pad" style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px' }}>
@@ -123,14 +123,14 @@ export default function Nosotros() {
             <div>
               <p className="label" style={{ marginBottom: 12 }}>Nuestra misión</p>
               <h2 style={{ fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 'clamp(28px,3.5vw,44px)', textTransform: 'uppercase', color: '#fff', lineHeight: 1.1, marginBottom: 20 }}>
-                EN TODO ESTE TIEMPO DE PERMANENCIA<br /><span style={{ color: '#C41E1E' }}>EN EL MERCADO NACIONAL</span>
+                EN TODO ESTE TIEMPO DE PERMANENCIA<br /><span style={{ color: '#E82828' }}>EN EL MERCADO NACIONAL</span>
               </h2>
-              <p style={{ fontFamily: 'var(--font-body)', fontSize: 16.875, color: '#C0C0C0', lineHeight: 1.8 }}>
+              <p style={{ fontFamily: 'var(--font-body)', fontSize: 16.875, color: '#E0E0E0', lineHeight: 1.8 }}>
                 Se han aplicado correctas políticas de comercialización. La calidad, el respeto, la tecnología
                 de punta, la innovación de los procesos productivos y la gran variedad de productos convierten
                 a Equipos Mecánicos S.A. en la mejor solución para los requerimientos de nuestros clientes.
               </p>
-              <p style={{ fontFamily: 'var(--font-body)', fontSize: 16.875, color: '#C0C0C0', lineHeight: 1.8, marginTop: 16 }}>
+              <p style={{ fontFamily: 'var(--font-body)', fontSize: 16.875, color: '#E0E0E0', lineHeight: 1.8, marginTop: 16 }}>
                 Equipos Mecánicos S.A. posee más de cuatro décadas de experiencia y permanencia, lo que nos
                 hace ser una empresa líder en el abastecimiento hacia las principales áreas productivas del
                 país: <strong style={{ color: '#FFFFFF' }}>minera, forestal, pesquería, agricultura e industria en general.</strong>
@@ -139,14 +139,14 @@ export default function Nosotros() {
             <div>
               <p className="label" style={{ marginBottom: 12 }}>Manufactura</p>
               <h2 style={{ fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 'clamp(28px,3.5vw,44px)', textTransform: 'uppercase', color: '#fff', lineHeight: 1.1, marginBottom: 20 }}>
-                ESTÁNDARES<br /><span style={{ color: '#C41E1E' }}>INTERNACIONALES</span>
+                ESTÁNDARES<br /><span style={{ color: '#E82828' }}>INTERNACIONALES</span>
               </h2>
-              <p style={{ fontFamily: 'var(--font-body)', fontSize: 16.875, color: '#C0C0C0', lineHeight: 1.8 }}>
+              <p style={{ fontFamily: 'var(--font-body)', fontSize: 16.875, color: '#E0E0E0', lineHeight: 1.8 }}>
                 Teniendo en cuenta la calidad de sus productos, EMSAC trabaja sólo bajo los más estrictos
                 estándares internacionales. Nos aseguramos que nuestros proveedores cumplan con las mismas
                 normas de calidad.
               </p>
-              <p style={{ fontFamily: 'var(--font-body)', fontSize: 16.875, color: '#C0C0C0', lineHeight: 1.8, marginTop: 16 }}>
+              <p style={{ fontFamily: 'var(--font-body)', fontSize: 16.875, color: '#E0E0E0', lineHeight: 1.8, marginTop: 16 }}>
                 EMSAC brinda un servicio de mantenimiento, reparación y distribución tanto en la industria
                 como en el hogar. Para este propósito contamos con una <strong style={{ color: '#FFFFFF' }}>flota de vehículos y técnicos
                 altamente calificados</strong>. Si requiere de algún trabajo especial, nuestros ingenieros le
@@ -167,19 +167,19 @@ export default function Nosotros() {
               <div key={i} style={{
                 background: '#fff',
                 padding: '40px 32px',
-                border: '1px solid rgba(27,58,107,0.15)',
-                borderTop: '3px solid #C41E1E',
+                border: '1px solid rgba(73,110,188,0.15)',
+                borderTop: '3px solid #E82828',
                 transition: 'all 0.2s',
               }}
               onMouseEnter={e => {
                 const el = e.currentTarget as HTMLDivElement
-                el.style.background = '#1B3A6B'
+                el.style.background = '#496ebc'
                 el.style.transform = 'translateY(-4px)'
-                el.style.boxShadow = '0 8px 24px rgba(27,58,107,0.18)'
+                el.style.boxShadow = '0 8px 24px rgba(73,110,188,0.18)'
                 const title = el.querySelector('.val-title') as HTMLParagraphElement
                 const desc = el.querySelector('.val-desc') as HTMLParagraphElement
                 if (title) title.style.color = '#fff'
-                if (desc) desc.style.color = '#C0C0C0'
+                if (desc) desc.style.color = '#E0E0E0'
               }}
               onMouseLeave={e => {
                 const el = e.currentTarget as HTMLDivElement
@@ -209,7 +209,7 @@ export default function Nosotros() {
       </section>
 
       {/* Marcas */}
-      <section style={{ background: '#1B3A6B', padding: '48px 0', borderBottom: '3px solid #C41E1E' }}>
+      <section style={{ background: '#496ebc', padding: '48px 0', borderBottom: '3px solid #E82828' }}>
         <div className="container">
           <p style={{
             fontFamily: 'var(--font-display)',
@@ -217,7 +217,7 @@ export default function Nosotros() {
             fontSize: 11,
             letterSpacing: '5px',
             textTransform: 'uppercase',
-            color: 'rgba(255,255,255,0.4)',
+            color: 'rgba(255,255,255,0.8)',
             textAlign: 'center',
             marginBottom: 40,
           }}>
@@ -241,7 +241,7 @@ export default function Nosotros() {
       <SolicitudCTA />
 
       {/* Contact strip */}
-      <section style={{ background: '#FFFFFF', padding: '56px 0', borderTop: '1px solid #C0C0C0' }}>
+      <section style={{ background: '#FFFFFF', padding: '56px 0', borderTop: '1px solid #E0E0E0' }}>
         <div className="container" style={{ textAlign: 'center' }}>
           <p style={{ fontFamily: 'var(--font-body)', fontSize: 18, color: '#111111', marginBottom: 24 }}>
             No dude en contar con nosotros para sus próximos proyectos de ingeniería.

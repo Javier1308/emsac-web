@@ -70,7 +70,7 @@ export default function ProductGrid({ products }: ProductGridProps) {
             <div style={{
               width: 32,
               height: 2,
-              background: '#C41E1E',
+              background: '#E82828',
               marginBottom: 12,
             }}/>
             <p style={{
@@ -88,7 +88,7 @@ export default function ProductGrid({ products }: ProductGridProps) {
               <p style={{
                 fontFamily: 'var(--font-body)',
                 fontSize: 13.5,
-                color: '#C0C0C0',
+                color: '#E0E0E0',
                 marginTop: 8,
                 lineHeight: 1.6,
               }}>
@@ -100,7 +100,7 @@ export default function ProductGrid({ products }: ProductGridProps) {
           {/* Name bar */}
           <div style={{
             padding: '12px 16px',
-            background: '#1B3A6B',
+            background: '#496ebc',
             borderTop: '2px solid rgba(196,30,30,0.3)',
           }}>
             <p style={{
@@ -109,7 +109,7 @@ export default function ProductGrid({ products }: ProductGridProps) {
               fontSize: 12,
               letterSpacing: '2px',
               textTransform: 'uppercase',
-              color: '#C0C0C0',
+              color: '#E0E0E0',
             }}>
               {p.name}
             </p>

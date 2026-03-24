@@ -27,15 +27,15 @@ export default function OtrosProductos() {
       />
 
       {/* Info */}
-      <section style={{ background: '#1B3A6B', padding: '48px 0' }}>
+      <section style={{ background: '#496ebc', padding: '48px 0' }}>
         <div className="m-pad" style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px' }}>
           <div style={{
             background: '#FFFFFF',
             padding: '28px 32px',
-            border: '1px solid rgba(27,58,107,0.12)',
-            borderLeft: '4px solid #C41E1E',
+            border: '1px solid rgba(73,110,188,0.12)',
+            borderLeft: '4px solid #E82828',
           }}>
-            <p style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 13, letterSpacing: '2px', textTransform: 'uppercase', color: '#C41E1E', marginBottom: 8 }}>
+            <p style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 13, letterSpacing: '2px', textTransform: 'uppercase', color: '#E82828', marginBottom: 8 }}>
               Servicio Integral
             </p>
             <p style={{ fontFamily: 'var(--font-body)', fontSize: 16.875, color: '#111111', lineHeight: 1.7 }}>
@@ -51,7 +51,7 @@ export default function OtrosProductos() {
       <section className="section" style={{ background: '#FFFFFF' }}>
         <div className="container">
           <p className="label" style={{ marginBottom: 12 }}>Catálogo</p>
-          <h2 className="heading-lg" style={{ marginBottom: 8 }}>PRODUCTOS<br /><span style={{ color: '#C41E1E' }}>COMPLEMENTARIOS</span></h2>
+          <h2 className="heading-lg" style={{ marginBottom: 8 }}>PRODUCTOS<br /><span style={{ color: '#E82828' }}>COMPLEMENTARIOS</span></h2>
           <div className="accent-line" style={{ marginBottom: 48 }}/>
 
           <div style={{
@@ -64,13 +64,13 @@ export default function OtrosProductos() {
                 background: '#fff',
                 display: 'flex',
                 overflow: 'hidden',
-                border: '1px solid rgba(27,58,107,0.15)',
-                borderLeft: '3px solid #C41E1E',
+                border: '1px solid rgba(73,110,188,0.15)',
+                borderLeft: '3px solid #E82828',
                 transition: 'transform 0.2s, box-shadow 0.2s',
               }}
               onMouseEnter={e => {
                 (e.currentTarget as HTMLDivElement).style.transform = 'translateY(-3px)'
-                ;(e.currentTarget as HTMLDivElement).style.boxShadow = '0 6px 20px rgba(27,58,107,0.12)'
+                ;(e.currentTarget as HTMLDivElement).style.boxShadow = '0 6px 20px rgba(73,110,188,0.12)'
               }}
               onMouseLeave={e => {
                 (e.currentTarget as HTMLDivElement).style.transform = 'translateY(0)'

@@ -31,7 +31,7 @@ export default function Pinones() {
       />
 
       {/* Materiales */}
-      <section style={{ background: '#1B3A6B', padding: '56px 0' }}>
+      <section style={{ background: '#496ebc', padding: '56px 0' }}>
         <div className="m-pad" style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px' }}>
           <p className="label" style={{ marginBottom: 24 }}>Materiales disponibles</p>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: 2 }}>
@@ -39,15 +39,15 @@ export default function Pinones() {
               <div key={i} style={{
                 background: '#FFFFFF',
                 padding: '28px 24px',
-                border: '1px solid rgba(27,58,107,0.12)',
-                borderLeft: '3px solid #C41E1E',
+                border: '1px solid rgba(73,110,188,0.12)',
+                borderLeft: '3px solid #E82828',
               }}>
                 <p style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 16, textTransform: 'uppercase', color: '#111111', marginBottom: 8 }}>{m.mat}</p>
                 <p style={{ fontFamily: 'var(--font-body)', fontSize: 14.625, color: '#111111', lineHeight: 1.6 }}>{m.desc}</p>
               </div>
             ))}
           </div>
-          <div style={{ marginTop: 24, background: '#FFFFFF', padding: '20px 24px', border: '1px solid rgba(27,58,107,0.12)', borderTop: '2px solid #C41E1E' }}>
+          <div style={{ marginTop: 24, background: '#FFFFFF', padding: '20px 24px', border: '1px solid rgba(73,110,188,0.12)', borderTop: '2px solid #E82828' }}>
             <p style={{ fontFamily: 'var(--font-body)', fontSize: 15.75, color: '#111111' }}>
               <strong style={{ color: '#111111' }}>Acabado estándar:</strong> Se suministran con agujero mínimo o acabado de canal chavetero y roscado para prisionero según necesidad del cliente.
             </p>
@@ -59,7 +59,7 @@ export default function Pinones() {
       <section className="section" style={{ background: '#FFFFFF' }}>
         <div className="container">
           <p className="label" style={{ marginBottom: 12 }}>Catálogo</p>
-          <h2 className="heading-lg" style={{ marginBottom: 8 }}>MODELOS<br /><span style={{ color: '#C41E1E' }}>DISPONIBLES</span></h2>
+          <h2 className="heading-lg" style={{ marginBottom: 8 }}>MODELOS<br /><span style={{ color: '#E82828' }}>DISPONIBLES</span></h2>
           <div className="accent-line" style={{ marginBottom: 48 }}/>
           <ProductGrid products={products} />
         </div>
