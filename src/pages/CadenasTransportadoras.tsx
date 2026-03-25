@@ -37,8 +37,8 @@ export default function CadenasTransportadoras() {
             { label: 'Personalización', value: 'Aditamentos especiales disponibles' },
           ].map((item, i) => (
             <div key={i}>
-              <p style={{ fontFamily: 'var(--font-display)', fontSize: 10, letterSpacing: '3px', textTransform: 'uppercase', color: '#E67E22', marginBottom: 4 }}>{item.label}</p>
-              <p style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 15, color: '#fff', letterSpacing: '1px' }}>{item.value}</p>
+              <p style={{ fontFamily: 'var(--font-display)', fontSize: 14, letterSpacing: '3px', textTransform: 'uppercase', color: '#E67E22', marginBottom: 4 }}>{item.label}</p>
+              <p style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 20, color: '#fff', letterSpacing: '1px' }}>{item.value}</p>
             </div>
           ))}
         </div>

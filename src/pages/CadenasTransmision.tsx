@@ -38,8 +38,8 @@ export default function CadenasTransmision() {
       {/* Tipos */}
       <section style={{ background: '#496ebc', padding: '56px 0' }}>
         <div className="m-pad" style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px' }}>
-          <p className="label" style={{ marginBottom: 16 }}>Tipos disponibles</p>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 2 }}>
+          <p className="label" style={{ marginBottom: 16, fontSize: 22 }}>Tipos disponibles</p>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, minmax(0, 460px))', gap: 2, justifyContent: 'center' }}>
             {tipos.map((t, i) => (
               <div key={i} style={{
                 padding: '16px 20px',
@@ -54,7 +54,7 @@ export default function CadenasTransmision() {
                 <p style={{
                   fontFamily: 'var(--font-display)',
                   fontWeight: 600,
-                  fontSize: 13,
+                  fontSize: 17,
                   letterSpacing: '1.5px',
                   textTransform: 'uppercase',
                   color: '#111111',

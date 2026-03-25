@@ -27,8 +27,8 @@ export default function CadenasEslabonadas() {
       {/* Specs */}
       <section style={{ background: '#496ebc', padding: '56px 0' }}>
         <div className="m-pad" style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px' }}>
-          <p className="label" style={{ marginBottom: 24 }}>Especificaciones Técnicas</p>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 2 }}>
+          <p className="label" style={{ marginBottom: 24, fontSize: 22 }}>Especificaciones Técnicas</p>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 2 }}>
             {specs.map((s, i) => (
               <div key={i} style={{
                 background: '#FFFFFF',
@@ -36,8 +36,8 @@ export default function CadenasEslabonadas() {
                 border: '1px solid rgba(73,110,188,0.12)',
                 borderTop: '2px solid #E67E22',
               }}>
-                <p style={{ fontFamily: 'var(--font-display)', fontSize: 10, letterSpacing: '3px', textTransform: 'uppercase', color: '#E67E22', marginBottom: 8 }}>{s.label}</p>
-                <p style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 15, color: '#111111', lineHeight: 1.4 }}>{s.value}</p>
+                <p style={{ fontFamily: 'var(--font-display)', fontSize: 14, letterSpacing: '3px', textTransform: 'uppercase', color: '#E67E22', marginBottom: 8 }}>{s.label}</p>
+                <p style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 20, color: '#111111', lineHeight: 1.4 }}>{s.value}</p>
               </div>
             ))}
           </div>
