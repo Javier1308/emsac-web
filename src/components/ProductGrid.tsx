@@ -70,7 +70,7 @@ export default function ProductGrid({ products }: ProductGridProps) {
             <div style={{
               width: 32,
               height: 2,
-              background: '#E82828',
+              background: '#E67E22',
               marginBottom: 12,
             }}/>
             <p style={{

@@ -34,9 +34,9 @@ export default function CadenasEslabonadas() {
                 background: '#FFFFFF',
                 padding: '28px 24px',
                 border: '1px solid rgba(73,110,188,0.12)',
-                borderTop: '2px solid #E82828',
+                borderTop: '2px solid #E67E22',
               }}>
-                <p style={{ fontFamily: 'var(--font-display)', fontSize: 10, letterSpacing: '3px', textTransform: 'uppercase', color: '#E82828', marginBottom: 8 }}>{s.label}</p>
+                <p style={{ fontFamily: 'var(--font-display)', fontSize: 10, letterSpacing: '3px', textTransform: 'uppercase', color: '#E67E22', marginBottom: 8 }}>{s.label}</p>
                 <p style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 15, color: '#111111', lineHeight: 1.4 }}>{s.value}</p>
               </div>
             ))}
@@ -48,7 +48,7 @@ export default function CadenasEslabonadas() {
       <section className="section" style={{ background: '#FFFFFF' }}>
         <div className="container">
           <p className="label" style={{ marginBottom: 12 }}>Catálogo</p>
-          <h2 className="heading-lg" style={{ marginBottom: 8 }}>MODELOS<br /><span style={{ color: '#E82828' }}>DISPONIBLES</span></h2>
+          <h2 className="heading-lg" style={{ marginBottom: 8 }}>MODELOS<br /><span style={{ color: '#E67E22' }}>DISPONIBLES</span></h2>
           <div className="accent-line" style={{ marginBottom: 48 }}/>
           <div style={{ maxWidth: 600 }}>
             <ProductGrid products={products} />

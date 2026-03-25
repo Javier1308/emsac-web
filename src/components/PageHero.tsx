@@ -37,7 +37,7 @@ export default function PageHero({ label, title, titleAccent, description, image
         position: 'absolute',
         bottom: 0, left: 0, right: 0,
         height: 4,
-        background: 'linear-gradient(to right, #E82828, #496ebc)',
+        background: 'linear-gradient(to right, #E67E22, #496ebc)',
       }}/>
 
       {/* Content */}
@@ -58,7 +58,7 @@ export default function PageHero({ label, title, titleAccent, description, image
           color: '#fff',
         }}>
           {title}
-          {titleAccent && <><br /><span style={{ color: '#E82828' }}>{titleAccent}</span></>}
+          {titleAccent && <><br /><span style={{ color: '#E67E22' }}>{titleAccent}</span></>}
         </h1>
         {description && (
           <p style={{

@@ -38,7 +38,7 @@ export default function Nosotros() {
           position: 'absolute', inset: 0,
           backgroundImage: 'repeating-linear-gradient(-45deg,transparent,transparent 40px,rgba(255,255,255,0.07) 40px,rgba(255,255,255,0.07) 41px)',
         }}/>
-        <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: 4, background: 'linear-gradient(to right, #E82828, #496ebc)' }}/>
+        <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: 4, background: 'linear-gradient(to right, #E67E22, #496ebc)' }}/>
 
         <div className="page-hero-content" style={{ position: 'relative', maxWidth: 1200, width: '100%', margin: '0 auto', padding: '80px 40px 64px' }}>
           <p className="label" style={{ marginBottom: 12 }}>La empresa</p>
@@ -50,7 +50,7 @@ export default function Nosotros() {
             lineHeight: 0.95,
             color: '#fff',
           }}>
-            SOBRE<br /><span style={{ color: '#E82828' }}>NOSOTROS</span>
+            SOBRE<br /><span style={{ color: '#E67E22' }}>NOSOTROS</span>
           </h1>
         </div>
       </section>
@@ -62,7 +62,7 @@ export default function Nosotros() {
             <p className="label" style={{ marginBottom: 12 }}>Historia</p>
             <h2 className="heading-lg" style={{ marginBottom: 16, fontSize: 'clamp(32px,4vw,52px)' }}>
               65+ AÑOS<br />
-              <span style={{ color: '#E82828' }}>DE EXPERIENCIA</span>
+              <span style={{ color: '#E67E22' }}>DE EXPERIENCIA</span>
             </h2>
             <div className="accent-line"/>
             <p style={{ fontFamily: 'var(--font-body)', fontSize: 16.875, color: '#111111', lineHeight: 1.8, marginBottom: 20 }}>
@@ -87,7 +87,7 @@ export default function Nosotros() {
                 { value: 'ISO',  label: '9001 Certificado' },
               ].map((s, i) => (
                 <div key={i} style={{ textAlign: 'center' }}>
-                  <div style={{ fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 40, color: '#E82828', lineHeight: 1 }}>{s.value}</div>
+                  <div style={{ fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 40, color: '#E67E22', lineHeight: 1 }}>{s.value}</div>
                   <div style={{ fontFamily: 'var(--font-display)', fontSize: 11, letterSpacing: '2px', textTransform: 'uppercase', color: '#444444', marginTop: 4 }}>{s.label}</div>
                 </div>
               ))}
@@ -123,7 +123,7 @@ export default function Nosotros() {
             <div>
               <p className="label" style={{ marginBottom: 12 }}>Nuestra misión</p>
               <h2 style={{ fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 'clamp(28px,3.5vw,44px)', textTransform: 'uppercase', color: '#fff', lineHeight: 1.1, marginBottom: 20 }}>
-                EN TODO ESTE TIEMPO DE PERMANENCIA<br /><span style={{ color: '#E82828' }}>EN EL MERCADO NACIONAL</span>
+                EN TODO ESTE TIEMPO DE PERMANENCIA<br /><span style={{ color: '#E67E22' }}>EN EL MERCADO NACIONAL</span>
               </h2>
               <p style={{ fontFamily: 'var(--font-body)', fontSize: 16.875, color: '#E0E0E0', lineHeight: 1.8 }}>
                 Se han aplicado correctas políticas de comercialización. La calidad, el respeto, la tecnología
@@ -139,7 +139,7 @@ export default function Nosotros() {
             <div>
               <p className="label" style={{ marginBottom: 12 }}>Manufactura</p>
               <h2 style={{ fontFamily: 'var(--font-display)', fontWeight: 900, fontSize: 'clamp(28px,3.5vw,44px)', textTransform: 'uppercase', color: '#fff', lineHeight: 1.1, marginBottom: 20 }}>
-                ESTÁNDARES<br /><span style={{ color: '#E82828' }}>INTERNACIONALES</span>
+                ESTÁNDARES<br /><span style={{ color: '#E67E22' }}>INTERNACIONALES</span>
               </h2>
               <p style={{ fontFamily: 'var(--font-body)', fontSize: 16.875, color: '#E0E0E0', lineHeight: 1.8 }}>
                 Teniendo en cuenta la calidad de sus productos, EMSAC trabaja sólo bajo los más estrictos
@@ -168,7 +168,7 @@ export default function Nosotros() {
                 background: '#fff',
                 padding: '40px 32px',
                 border: '1px solid rgba(73,110,188,0.15)',
-                borderTop: '3px solid #E82828',
+                borderTop: '3px solid #E67E22',
                 transition: 'all 0.2s',
               }}
               onMouseEnter={e => {
@@ -209,7 +209,7 @@ export default function Nosotros() {
       </section>
 
       {/* Marcas */}
-      <section style={{ background: '#496ebc', padding: '48px 0', borderBottom: '3px solid #E82828' }}>
+      <section style={{ background: '#496ebc', padding: '48px 0', borderBottom: '3px solid #E67E22' }}>
         <div className="container">
           <p style={{
             fontFamily: 'var(--font-display)',

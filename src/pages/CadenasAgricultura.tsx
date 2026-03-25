@@ -38,7 +38,7 @@ export default function CadenasAgricultura() {
                 padding: '32px 24px',
                 textAlign: 'center',
                 border: '1px solid rgba(73,110,188,0.12)',
-                borderBottom: '3px solid #E82828',
+                borderBottom: '3px solid #E67E22',
               }}>
                 <div style={{ fontSize: 40, marginBottom: 12 }}>{a.icon}</div>
                 <p style={{
@@ -59,7 +59,7 @@ export default function CadenasAgricultura() {
       <section className="section" style={{ background: '#FFFFFF' }}>
         <div className="container">
           <p className="label" style={{ marginBottom: 12 }}>Catálogo</p>
-          <h2 className="heading-lg" style={{ marginBottom: 8 }}>MODELOS<br /><span style={{ color: '#E82828' }}>DISPONIBLES</span></h2>
+          <h2 className="heading-lg" style={{ marginBottom: 8 }}>MODELOS<br /><span style={{ color: '#E67E22' }}>DISPONIBLES</span></h2>
           <div className="accent-line" style={{ marginBottom: 48 }}/>
           <ProductGrid products={products} />
         </div>

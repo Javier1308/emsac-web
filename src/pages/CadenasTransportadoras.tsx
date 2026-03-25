@@ -29,7 +29,7 @@ export default function CadenasTransportadoras() {
       />
 
       {/* Info strip */}
-      <section style={{ background: '#496ebc', padding: '32px 0', borderBottom: '3px solid #E82828' }}>
+      <section style={{ background: '#496ebc', padding: '32px 0', borderBottom: '3px solid #E67E22' }}>
         <div className="m-pad" style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px', display: 'flex', gap: 48, flexWrap: 'wrap' }}>
           {[
             { label: 'Marca', value: 'WROL' },
@@ -37,7 +37,7 @@ export default function CadenasTransportadoras() {
             { label: 'Personalización', value: 'Aditamentos especiales disponibles' },
           ].map((item, i) => (
             <div key={i}>
-              <p style={{ fontFamily: 'var(--font-display)', fontSize: 10, letterSpacing: '3px', textTransform: 'uppercase', color: '#E82828', marginBottom: 4 }}>{item.label}</p>
+              <p style={{ fontFamily: 'var(--font-display)', fontSize: 10, letterSpacing: '3px', textTransform: 'uppercase', color: '#E67E22', marginBottom: 4 }}>{item.label}</p>
               <p style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 15, color: '#fff', letterSpacing: '1px' }}>{item.value}</p>
             </div>
           ))}
@@ -48,7 +48,7 @@ export default function CadenasTransportadoras() {
       <section className="section" style={{ background: '#FFFFFF' }}>
         <div className="container">
           <p className="label" style={{ marginBottom: 12 }}>Catálogo</p>
-          <h2 className="heading-lg" style={{ marginBottom: 8 }}>MODELOS<br /><span style={{ color: '#E82828' }}>DISPONIBLES</span></h2>
+          <h2 className="heading-lg" style={{ marginBottom: 8 }}>MODELOS<br /><span style={{ color: '#E67E22' }}>DISPONIBLES</span></h2>
           <div className="accent-line"/>
           <p style={{ fontFamily: 'var(--font-body)', fontSize: 18, color: '#111111', maxWidth: 560, lineHeight: 1.7, marginBottom: 48 }}>
             Nuestra línea de cadenas transportadoras incluye múltiples configuraciones para adaptarse

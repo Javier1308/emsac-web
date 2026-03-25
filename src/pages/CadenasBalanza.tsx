@@ -26,9 +26,9 @@ export default function CadenasBalanza() {
             padding: '28px 32px',
             borderRadius: '0 4px 4px 0',
             border: '1px solid rgba(73,110,188,0.12)',
-            borderLeft: '4px solid #E82828',
+            borderLeft: '4px solid #E67E22',
           }}>
-            <p style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 14, letterSpacing: '3px', textTransform: 'uppercase', color: '#E82828', marginBottom: 8 }}>
+            <p style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 14, letterSpacing: '3px', textTransform: 'uppercase', color: '#E67E22', marginBottom: 8 }}>
               Información del Producto
             </p>
             <p style={{ fontFamily: 'var(--font-body)', fontSize: 16.875, color: '#111111', lineHeight: 1.7 }}>
@@ -44,7 +44,7 @@ export default function CadenasBalanza() {
       <section className="section" style={{ background: '#FFFFFF' }}>
         <div className="container">
           <p className="label" style={{ marginBottom: 12 }}>Catálogo</p>
-          <h2 className="heading-lg" style={{ marginBottom: 8 }}>MODELOS<br /><span style={{ color: '#E82828' }}>DISPONIBLES</span></h2>
+          <h2 className="heading-lg" style={{ marginBottom: 8 }}>MODELOS<br /><span style={{ color: '#E67E22' }}>DISPONIBLES</span></h2>
           <div className="accent-line" style={{ marginBottom: 48 }}/>
           <div style={{ maxWidth: 600 }}>
             <ProductGrid products={products} />

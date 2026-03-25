@@ -121,7 +121,7 @@ export default function Home() {
         {/* Bottom line */}
         <div style={{
           position: 'absolute', bottom: 0, left: 0, right: 0, height: 4,
-          background: 'linear-gradient(to right, #E82828, #496ebc)',
+          background: 'linear-gradient(to right, #E67E22, #496ebc)',
         }}/>
 
         {/* Content */}
@@ -143,7 +143,7 @@ export default function Home() {
             maxWidth: 700,
           }}>
             {slide.title}<br />
-            <span style={{ color: '#E82828' }}>{slide.accent}</span>
+            <span style={{ color: '#E67E22' }}>{slide.accent}</span>
           </h1>
           <p style={{
             fontFamily: 'var(--font-body)',
@@ -182,8 +182,8 @@ export default function Home() {
           }}
           onMouseEnter={e => {
             const el = e.currentTarget as HTMLButtonElement
-            el.style.background = '#E82828'
-            el.style.borderColor = '#E82828'
+            el.style.background = '#E67E22'
+            el.style.borderColor = '#E67E22'
           }}
           onMouseLeave={e => {
             const el = e.currentTarget as HTMLButtonElement
@@ -216,8 +216,8 @@ export default function Home() {
           }}
           onMouseEnter={e => {
             const el = e.currentTarget as HTMLButtonElement
-            el.style.background = '#E82828'
-            el.style.borderColor = '#E82828'
+            el.style.background = '#E67E22'
+            el.style.borderColor = '#E67E22'
           }}
           onMouseLeave={e => {
             const el = e.currentTarget as HTMLButtonElement
@@ -240,7 +240,7 @@ export default function Home() {
               width: i === current ? 32 : 8,
               height: 8,
               borderRadius: 4,
-              background: i === current ? '#E82828' : 'rgba(255,255,255,0.3)',
+              background: i === current ? '#E67E22' : 'rgba(255,255,255,0.3)',
               border: 'none',
               cursor: 'pointer',
               transition: 'all 0.3s ease',
@@ -251,7 +251,7 @@ export default function Home() {
       </section>
 
       {/* ── STATS BAR ── */}
-      <section style={{ background: '#496ebc', borderBottom: '3px solid #E82828' }}>
+      <section style={{ background: '#496ebc', borderBottom: '3px solid #E67E22' }}>
         <div className="home-stats-grid" style={{
           maxWidth: 1200, margin: '0 auto', padding: '0 40px',
           display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)',
@@ -265,18 +265,18 @@ export default function Home() {
               <div style={{
                 fontFamily: 'var(--font-display)',
                 fontWeight: 900,
-                fontSize: 36,
-                color: '#E82828',
+                fontSize: 48,
+                color: '#E67E22',
                 lineHeight: 1,
               }}>{s.value}</div>
               <div style={{
                 fontFamily: 'var(--font-display)',
                 fontWeight: 600,
-                fontSize: 11,
+                fontSize: 14,
                 letterSpacing: '3px',
                 textTransform: 'uppercase',
                 color: 'rgba(255,255,255,0.85)',
-                marginTop: 6,
+                marginTop: 8,
               }}>{s.label}</div>
             </div>
           ))}
@@ -289,7 +289,7 @@ export default function Home() {
           <p className="label" style={{ marginBottom: 12 }}>Nuestros Productos</p>
           <h2 className="heading-lg" style={{ marginBottom: 4 }}>
             LÍNEA DE<br />
-            <span style={{ color: '#E82828' }}>PRODUCTOS</span>
+            <span style={{ color: '#E67E22' }}>PRODUCTOS</span>
           </h2>
           <div className="accent-line"/>
           <p style={{
@@ -361,14 +361,14 @@ export default function Home() {
                   <div style={{
                     position: 'absolute', bottom: 0, left: 0, right: 0,
                     padding: '24px 28px',
-                    borderTop: '2px solid #E82828',
+                    borderTop: '2px solid #E67E22',
                   }}>
                     <p style={{
                       fontFamily: 'var(--font-display)',
-                      fontSize: 10,
+                      fontSize: 14,
                       letterSpacing: '4px',
                       textTransform: 'uppercase',
-                      color: '#E82828',
+                      color: '#E67E22',
                       marginBottom: 6,
                     }}>{cat.label}</p>
                     <h3 style={{
@@ -451,9 +451,9 @@ export default function Home() {
               lineHeight: 1,
             }}>
               MÁS DE 65 AÑOS<br />
-              <span style={{ color: '#E82828' }}>HACIENDO QUE<br />TODO FUNCIONE</span>
+              <span style={{ color: '#E67E22' }}>HACIENDO QUE<br />TODO FUNCIONE</span>
             </h2>
-            <div style={{ width: 48, height: 3, background: '#E82828', margin: '20px 0 24px' }}/>
+            <div style={{ width: 48, height: 3, background: '#E67E22', margin: '20px 0 24px' }}/>
             <p style={{
               fontFamily: 'var(--font-body)',
               fontSize: 16.875,
@@ -525,7 +525,7 @@ export default function Home() {
               }}
               onMouseEnter={e => {
                 const el = e.currentTarget as HTMLDivElement
-                el.style.borderBottomColor = '#E82828'
+                el.style.borderBottomColor = '#E67E22'
                 el.style.background = '#496ebc'
                 const txt = el.querySelector('p') as HTMLParagraphElement
                 if (txt) txt.style.color = '#fff'
@@ -555,7 +555,7 @@ export default function Home() {
       </section>
 
       {/* ── BRANDS ── */}
-      <section style={{ background: '#496ebc', padding: '48px 0', borderBottom: '3px solid #E82828' }}>
+      <section style={{ background: '#496ebc', padding: '48px 0', borderBottom: '3px solid #E67E22' }}>
         <div className="container">
           <p style={{
             fontFamily: 'var(--font-display)',

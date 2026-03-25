@@ -101,11 +101,11 @@ export default function Navbar() {
                   padding: '8px 14px',
                   fontFamily: 'var(--font-display)',
                   fontWeight: 700,
-                  fontSize: 13,
+                  fontSize: 15,
                   letterSpacing: '2px',
                   textTransform: 'uppercase',
-                  color: isCadenasActive ? '#E82828' : '#E0E0E0',
-                  borderBottom: isCadenasActive ? '2px solid #E82828' : '2px solid transparent',
+                  color: isCadenasActive ? '#E67E22' : '#E0E0E0',
+                  borderBottom: isCadenasActive ? '2px solid #E67E22' : '2px solid transparent',
                   transition: 'color 0.2s',
                 }}
                 onMouseEnter={e => { if (!isCadenasActive) (e.currentTarget as HTMLButtonElement).style.color = '#fff' }}
@@ -125,7 +125,7 @@ export default function Navbar() {
                   left: 0,
                   background: '#496ebc',
                   border: '1px solid rgba(196,30,30,0.3)',
-                  borderTop: '2px solid #E82828',
+                  borderTop: '2px solid #E67E22',
                   borderRadius: '0 0 4px 4px',
                   minWidth: 240,
                   boxShadow: '0 8px 32px rgba(0,0,0,0.4)',
@@ -140,24 +140,24 @@ export default function Navbar() {
                         padding: '12px 20px',
                         fontFamily: 'var(--font-display)',
                         fontWeight: 600,
-                        fontSize: 13,
+                        fontSize: 15,
                         letterSpacing: '1.5px',
                         textTransform: 'uppercase',
                         textDecoration: 'none',
-                        color: isActive(l.to) ? '#E82828' : '#E0E0E0',
+                        color: isActive(l.to) ? '#E67E22' : '#E0E0E0',
                         background: isActive(l.to) ? 'rgba(196,30,30,0.1)' : 'transparent',
-                        borderLeft: isActive(l.to) ? '3px solid #E82828' : '3px solid transparent',
+                        borderLeft: isActive(l.to) ? '3px solid #E67E22' : '3px solid transparent',
                         transition: 'all 0.15s',
                       }}
                       onMouseEnter={e => {
                         const el = e.currentTarget as HTMLAnchorElement
                         el.style.background = 'rgba(196,30,30,0.12)'
-                        el.style.color = '#E82828'
+                        el.style.color = '#E67E22'
                       }}
                       onMouseLeave={e => {
                         const el = e.currentTarget as HTMLAnchorElement
                         el.style.background = isActive(l.to) ? 'rgba(196,30,30,0.1)' : 'transparent'
-                        el.style.color = isActive(l.to) ? '#E82828' : '#E0E0E0'
+                        el.style.color = isActive(l.to) ? '#E67E22' : '#E0E0E0'
                       }}
                     >
                       {l.label}
@@ -176,12 +176,12 @@ export default function Navbar() {
                   padding: '8px 14px',
                   fontFamily: 'var(--font-display)',
                   fontWeight: 700,
-                  fontSize: 13,
+                  fontSize: 15,
                   letterSpacing: '2px',
                   textTransform: 'uppercase',
                   textDecoration: 'none',
-                  color: isActive(l.to) ? '#E82828' : '#E0E0E0',
-                  borderBottom: isActive(l.to) ? '2px solid #E82828' : '2px solid transparent',
+                  color: isActive(l.to) ? '#E67E22' : '#E0E0E0',
+                  borderBottom: isActive(l.to) ? '2px solid #E67E22' : '2px solid transparent',
                   transition: 'color 0.2s',
                   whiteSpace: 'nowrap',
                 }}
@@ -200,18 +200,18 @@ export default function Navbar() {
                 padding: '8px 20px',
                 fontFamily: 'var(--font-display)',
                 fontWeight: 700,
-                fontSize: 12,
+                fontSize: 14,
                 letterSpacing: '2.5px',
                 textTransform: 'uppercase',
                 textDecoration: 'none',
                 color: '#fff',
-                background: isActive('/contactenos') ? '#111111' : '#E82828',
+                background: isActive('/contactenos') ? '#111111' : '#E67E22',
                 borderRadius: 2,
                 transition: 'background 0.2s',
                 whiteSpace: 'nowrap',
               }}
               onMouseEnter={e => (e.currentTarget as HTMLAnchorElement).style.background = '#111111'}
-              onMouseLeave={e => (e.currentTarget as HTMLAnchorElement).style.background = isActive('/contactenos') ? '#111111' : '#E82828'}
+              onMouseLeave={e => (e.currentTarget as HTMLAnchorElement).style.background = isActive('/contactenos') ? '#111111' : '#E67E22'}
             >
               Contáctenos
             </Link>
@@ -270,7 +270,7 @@ export default function Navbar() {
               fontSize: 15,
               letterSpacing: '2px',
               textTransform: 'uppercase',
-              color: isCadenasActive ? '#E82828' : '#fff',
+              color: isCadenasActive ? '#E67E22' : '#fff',
             }}
           >
             Cadenas
@@ -293,7 +293,7 @@ export default function Navbar() {
                 letterSpacing: '1.5px',
                 textTransform: 'uppercase',
                 textDecoration: 'none',
-                color: isActive(l.to) ? '#E82828' : '#E0E0E0',
+                color: isActive(l.to) ? '#E67E22' : '#E0E0E0',
                 borderBottom: '1px solid rgba(255,255,255,0.04)',
                 background: isActive(l.to) ? 'rgba(196,30,30,0.08)' : 'transparent',
               }}
@@ -315,7 +315,7 @@ export default function Navbar() {
                 letterSpacing: '2px',
                 textTransform: 'uppercase',
                 textDecoration: 'none',
-                color: isActive(l.to) ? '#E82828' : '#fff',
+                color: isActive(l.to) ? '#E67E22' : '#fff',
                 borderBottom: '1px solid rgba(255,255,255,0.06)',
               }}
             >
@@ -329,7 +329,7 @@ export default function Navbar() {
               fontFamily: 'var(--font-display)',
               fontSize: 18,
               fontWeight: 700,
-              color: '#E82828',
+              color: '#E67E22',
               textDecoration: 'none',
               marginBottom: 8,
             }}>

@@ -28,7 +28,7 @@ export default function SolicitudCTA() {
             lineHeight: 1.1,
           }}>
             Solicite información<br />
-            <span style={{ color: '#E82828' }}>adicional</span>
+            <span style={{ color: '#E67E22' }}>adicional</span>
           </h3>
           <p style={{
             fontFamily: 'var(--font-body)',

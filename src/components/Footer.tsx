@@ -61,7 +61,7 @@ export default function Footer() {
               fontSize: 14,
               letterSpacing: '3px',
               textTransform: 'uppercase',
-              color: '#E82828',
+              color: '#E67E22',
               marginBottom: 20,
             }}>
               Cadenas
@@ -82,7 +82,7 @@ export default function Footer() {
                     textDecoration: 'none',
                     transition: 'color 0.2s',
                   }}
-                  onMouseEnter={e => (e.currentTarget as HTMLAnchorElement).style.color = '#E82828'}
+                  onMouseEnter={e => (e.currentTarget as HTMLAnchorElement).style.color = '#E67E22'}
                   onMouseLeave={e => (e.currentTarget as HTMLAnchorElement).style.color = '#E0E0E0'}
                   >
                     {l.label}
@@ -100,7 +100,7 @@ export default function Footer() {
               fontSize: 14,
               letterSpacing: '3px',
               textTransform: 'uppercase',
-              color: '#E82828',
+              color: '#E67E22',
               marginBottom: 20,
             }}>
               Productos
@@ -120,7 +120,7 @@ export default function Footer() {
                     textDecoration: 'none',
                     transition: 'color 0.2s',
                   }}
-                  onMouseEnter={e => (e.currentTarget as HTMLAnchorElement).style.color = '#E82828'}
+                  onMouseEnter={e => (e.currentTarget as HTMLAnchorElement).style.color = '#E67E22'}
                   onMouseLeave={e => (e.currentTarget as HTMLAnchorElement).style.color = '#E0E0E0'}
                   >
                     {l.label}
@@ -138,7 +138,7 @@ export default function Footer() {
               fontSize: 14,
               letterSpacing: '3px',
               textTransform: 'uppercase',
-              color: '#E82828',
+              color: '#E67E22',
               marginBottom: 20,
             }}>
               Contacto
@@ -168,7 +168,7 @@ export default function Footer() {
                   textDecoration: 'none',
                   transition: 'color 0.2s',
                 }}
-                onMouseEnter={e => (e.currentTarget as HTMLAnchorElement).style.color = '#E82828'}
+                onMouseEnter={e => (e.currentTarget as HTMLAnchorElement).style.color = '#E67E22'}
                 onMouseLeave={e => (e.currentTarget as HTMLAnchorElement).style.color = '#E0E0E0'}
                 >
                   Nosotros →

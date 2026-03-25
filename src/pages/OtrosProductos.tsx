@@ -33,9 +33,9 @@ export default function OtrosProductos() {
             background: '#FFFFFF',
             padding: '28px 32px',
             border: '1px solid rgba(73,110,188,0.12)',
-            borderLeft: '4px solid #E82828',
+            borderLeft: '4px solid #E67E22',
           }}>
-            <p style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 13, letterSpacing: '2px', textTransform: 'uppercase', color: '#E82828', marginBottom: 8 }}>
+            <p style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 13, letterSpacing: '2px', textTransform: 'uppercase', color: '#E67E22', marginBottom: 8 }}>
               Servicio Integral
             </p>
             <p style={{ fontFamily: 'var(--font-body)', fontSize: 16.875, color: '#111111', lineHeight: 1.7 }}>
@@ -51,7 +51,7 @@ export default function OtrosProductos() {
       <section className="section" style={{ background: '#FFFFFF' }}>
         <div className="container">
           <p className="label" style={{ marginBottom: 12 }}>Catálogo</p>
-          <h2 className="heading-lg" style={{ marginBottom: 8 }}>PRODUCTOS<br /><span style={{ color: '#E82828' }}>COMPLEMENTARIOS</span></h2>
+          <h2 className="heading-lg" style={{ marginBottom: 8 }}>PRODUCTOS<br /><span style={{ color: '#E67E22' }}>COMPLEMENTARIOS</span></h2>
           <div className="accent-line" style={{ marginBottom: 48 }}/>
 
           <div style={{
@@ -65,7 +65,7 @@ export default function OtrosProductos() {
                 display: 'flex',
                 overflow: 'hidden',
                 border: '1px solid rgba(73,110,188,0.15)',
-                borderLeft: '3px solid #E82828',
+                borderLeft: '3px solid #E67E22',
                 transition: 'transform 0.2s, box-shadow 0.2s',
               }}
               onMouseEnter={e => {

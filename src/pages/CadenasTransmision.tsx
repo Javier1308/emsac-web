@@ -48,9 +48,9 @@ export default function CadenasTransmision() {
                 alignItems: 'center',
                 gap: 12,
                 border: '1px solid rgba(73,110,188,0.12)',
-                borderLeft: '3px solid #E82828',
+                borderLeft: '3px solid #E67E22',
               }}>
-                <div style={{ width: 6, height: 6, background: '#E82828', borderRadius: '50%', flexShrink: 0 }}/>
+                <div style={{ width: 6, height: 6, background: '#E67E22', borderRadius: '50%', flexShrink: 0 }}/>
                 <p style={{
                   fontFamily: 'var(--font-display)',
                   fontWeight: 600,
@@ -69,7 +69,7 @@ export default function CadenasTransmision() {
       <section className="section" style={{ background: '#FFFFFF' }}>
         <div className="container">
           <p className="label" style={{ marginBottom: 12 }}>Catálogo</p>
-          <h2 className="heading-lg" style={{ marginBottom: 8 }}>MODELOS<br /><span style={{ color: '#E82828' }}>DISPONIBLES</span></h2>
+          <h2 className="heading-lg" style={{ marginBottom: 8 }}>MODELOS<br /><span style={{ color: '#E67E22' }}>DISPONIBLES</span></h2>
           <div className="accent-line" style={{ marginBottom: 48 }}/>
           <ProductGrid products={products} />
         </div>

@@ -59,7 +59,7 @@ export default function Contactenos() {
         background: '#496ebc',
         backgroundImage: 'repeating-linear-gradient(-45deg,transparent,transparent 40px,rgba(255,255,255,0.07) 40px,rgba(255,255,255,0.07) 41px)',
         padding: '80px 0 64px',
-        borderBottom: '3px solid #E82828',
+        borderBottom: '3px solid #E67E22',
       }}>
         <div className="m-pad" style={{ maxWidth: 1200, margin: '0 auto', padding: '0 40px' }}>
           <p className="label" style={{ marginBottom: 12 }}>Estamos para ayudarle</p>
@@ -68,7 +68,7 @@ export default function Contactenos() {
             fontSize: 'clamp(48px, 7vw, 80px)', textTransform: 'uppercase',
             lineHeight: 0.95, color: '#fff',
           }}>
-            CONTÁC-<br /><span style={{ color: '#E82828' }}>TENOS</span>
+            CONTÁC-<br /><span style={{ color: '#E67E22' }}>TENOS</span>
           </h1>
           <p style={{ fontFamily: 'var(--font-body)', fontSize: 18, color: '#fff', marginTop: 20, maxWidth: 480, lineHeight: 1.7 }}>
             Nuestros ingenieros están disponibles para desarrollar la solución que su empresa necesita.
@@ -86,7 +86,7 @@ export default function Contactenos() {
             <p className="label" style={{ marginBottom: 16 }}>Escríbanos</p>
             {sent ? (
               <div style={{
-                background: '#496ebc', border: '1px solid rgba(196,30,30,0.4)', borderLeft: '4px solid #E82828',
+                background: '#496ebc', border: '1px solid rgba(196,30,30,0.4)', borderLeft: '4px solid #E67E22',
                 padding: '40px 36px', borderRadius: 2,
               }}>
                 <h3 style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: 28, textTransform: 'uppercase', color: '#fff', marginBottom: 12 }}>
@@ -100,7 +100,7 @@ export default function Contactenos() {
               <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
                 <div className="form-row" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
                   <div>
-                    <label style={{ fontFamily: 'var(--font-display)', fontSize: 11, letterSpacing: '3px', textTransform: 'uppercase', color: '#E82828', display: 'block', marginBottom: 8 }}>
+                    <label style={{ fontFamily: 'var(--font-display)', fontSize: 11, letterSpacing: '3px', textTransform: 'uppercase', color: '#E67E22', display: 'block', marginBottom: 8 }}>
                       * Nombre y Apellidos
                     </label>
                     <input
@@ -111,7 +111,7 @@ export default function Contactenos() {
                         borderRadius: 2, fontFamily: 'var(--font-body)', fontSize: 15.75, color: '#111111',
                         outline: 'none', transition: 'border-color 0.2s',
                       }}
-                      onFocus={e => (e.currentTarget as HTMLInputElement).style.borderColor = '#E82828'}
+                      onFocus={e => (e.currentTarget as HTMLInputElement).style.borderColor = '#E67E22'}
                       onBlur={e => (e.currentTarget as HTMLInputElement).style.borderColor = '#E0E0E0'}
                     />
                   </div>
@@ -127,14 +127,14 @@ export default function Contactenos() {
                         borderRadius: 2, fontFamily: 'var(--font-body)', fontSize: 15.75, color: '#111111',
                         outline: 'none', transition: 'border-color 0.2s',
                       }}
-                      onFocus={e => (e.currentTarget as HTMLInputElement).style.borderColor = '#E82828'}
+                      onFocus={e => (e.currentTarget as HTMLInputElement).style.borderColor = '#E67E22'}
                       onBlur={e => (e.currentTarget as HTMLInputElement).style.borderColor = '#E0E0E0'}
                     />
                   </div>
                 </div>
                 <div className="form-row" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
                   <div>
-                    <label style={{ fontFamily: 'var(--font-display)', fontSize: 11, letterSpacing: '3px', textTransform: 'uppercase', color: '#E82828', display: 'block', marginBottom: 8 }}>
+                    <label style={{ fontFamily: 'var(--font-display)', fontSize: 11, letterSpacing: '3px', textTransform: 'uppercase', color: '#E67E22', display: 'block', marginBottom: 8 }}>
                       * Teléfono
                     </label>
                     <input
@@ -145,12 +145,12 @@ export default function Contactenos() {
                         borderRadius: 2, fontFamily: 'var(--font-body)', fontSize: 15.75, color: '#111111',
                         outline: 'none', transition: 'border-color 0.2s',
                       }}
-                      onFocus={e => (e.currentTarget as HTMLInputElement).style.borderColor = '#E82828'}
+                      onFocus={e => (e.currentTarget as HTMLInputElement).style.borderColor = '#E67E22'}
                       onBlur={e => (e.currentTarget as HTMLInputElement).style.borderColor = '#E0E0E0'}
                     />
                   </div>
                   <div>
-                    <label style={{ fontFamily: 'var(--font-display)', fontSize: 11, letterSpacing: '3px', textTransform: 'uppercase', color: '#E82828', display: 'block', marginBottom: 8 }}>
+                    <label style={{ fontFamily: 'var(--font-display)', fontSize: 11, letterSpacing: '3px', textTransform: 'uppercase', color: '#E67E22', display: 'block', marginBottom: 8 }}>
                       * Correo Electrónico
                     </label>
                     <input
@@ -161,7 +161,7 @@ export default function Contactenos() {
                         borderRadius: 2, fontFamily: 'var(--font-body)', fontSize: 15.75, color: '#111111',
                         outline: 'none', transition: 'border-color 0.2s',
                       }}
-                      onFocus={e => (e.currentTarget as HTMLInputElement).style.borderColor = '#E82828'}
+                      onFocus={e => (e.currentTarget as HTMLInputElement).style.borderColor = '#E67E22'}
                       onBlur={e => (e.currentTarget as HTMLInputElement).style.borderColor = '#E0E0E0'}
                     />
                   </div>
@@ -179,7 +179,7 @@ export default function Contactenos() {
                       borderRadius: 2, fontFamily: 'var(--font-body)', fontSize: 15.75, color: '#111111',
                       outline: 'none', transition: 'border-color 0.2s', resize: 'vertical',
                     }}
-                    onFocus={e => (e.currentTarget as HTMLTextAreaElement).style.borderColor = '#E82828'}
+                    onFocus={e => (e.currentTarget as HTMLTextAreaElement).style.borderColor = '#E67E22'}
                     onBlur={e => (e.currentTarget as HTMLTextAreaElement).style.borderColor = '#E0E0E0'}
                   />
                 </div>
@@ -202,11 +202,11 @@ export default function Contactenos() {
                   gap: 16,
                   alignItems: 'flex-start',
                   border: '1px solid rgba(73,110,188,0.12)',
-                  borderLeft: '3px solid #E82828',
+                  borderLeft: '3px solid #E67E22',
                 }}>
-                  <div style={{ color: '#E82828', marginTop: 2, flexShrink: 0 }}>{c.icon}</div>
+                  <div style={{ color: '#E67E22', marginTop: 2, flexShrink: 0 }}>{c.icon}</div>
                   <div>
-                    <p style={{ fontFamily: 'var(--font-display)', fontSize: 10, letterSpacing: '3px', textTransform: 'uppercase', color: '#E82828', marginBottom: 6 }}>{c.label}</p>
+                    <p style={{ fontFamily: 'var(--font-display)', fontSize: 10, letterSpacing: '3px', textTransform: 'uppercase', color: '#E67E22', marginBottom: 6 }}>{c.label}</p>
                     <p style={{ fontFamily: 'var(--font-body)', fontSize: 15.75, color: '#111111', lineHeight: 1.7, whiteSpace: 'pre-line' }}>{c.value}</p>
                   </div>
                 </div>
@@ -248,7 +248,7 @@ export default function Contactenos() {
       </section>
 
       {/* Google Maps */}
-      <section style={{ background: '#496ebc', borderTop: '3px solid #E82828' }}>
+      <section style={{ background: '#496ebc', borderTop: '3px solid #E67E22' }}>
         <div className="m-pad" style={{ maxWidth: 1200, margin: '0 auto', padding: '56px 40px' }}>
           <p className="label" style={{ marginBottom: 12 }}>Cómo llegar</p>
           <h2 style={{
@@ -256,7 +256,7 @@ export default function Contactenos() {
             fontSize: 'clamp(28px, 3vw, 40px)', textTransform: 'uppercase',
             color: '#fff', lineHeight: 1, marginBottom: 32,
           }}>
-            NUESTRA <span style={{ color: '#E82828' }}>UBICACIÓN</span>
+            NUESTRA <span style={{ color: '#E67E22' }}>UBICACIÓN</span>
           </h2>
           <div style={{ position: 'relative', borderRadius: 2, overflow: 'hidden', border: '1px solid rgba(196,30,30,0.3)' }}>
             <iframe
