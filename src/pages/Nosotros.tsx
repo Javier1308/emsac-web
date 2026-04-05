@@ -224,16 +224,9 @@ export default function Nosotros() {
             Marcas que distribuimos
           </p>
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 60, flexWrap: 'wrap' }}>
-            <img
-              src="/images/HC_logo.png"
-              alt="HC"
-              style={{ height: 120, width: 'auto', borderRadius: 8 }}
-            />
-            <img
-              src="/images/WROL_sin_logo.jpeg"
-              alt="WROL"
-              style={{ height: 120, width: 'auto', borderRadius: 4 }}
-            />
+            <img src="/images/BIOKLogo.png" alt="BIOK" style={{ height: 204, width: 'auto', borderRadius: 8, background: '#fff', padding: 8 }} />
+            <img src="/images/HCLogo.png"   alt="HC"   style={{ height: 204, width: 'auto', borderRadius: 8, background: '#fff', padding: 8 }} />
+            <img src="/images/WROLLogo.png" alt="WROL" style={{ height: 204, width: 'auto', borderRadius: 8, background: '#fff', padding: 8 }} />
           </div>
         </div>
       </section>
